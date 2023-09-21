@@ -110,14 +110,32 @@ export const BF_Botaxes = () => (
   <div className="w-full ">
 
 
-    <div className=" flex justify-center w-full  item-center  ">
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-2">  
+    <div className=" flex justify-center w-full px-[5%] py-12 item-center  ">
+        <div className="grid grid-cols-2 gap-12 ">  
          
-           <div className="md:col-span-2  rounded-xl bg-gradient-to-b  p-1">
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
              <Skin position={80} />
            </div>
          
-           <div className="md:col-span-2  rounded-xl bg-gradient-to-b  p-1">
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+             <Beauty position={80}/>
+           </div>
+
+
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+             <Skin position={80} />
+           </div>
+
+
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+             <Skin position={80} />
+           </div>
+
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+             <Beauty position={80}/>
+           </div>
+
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
              <Beauty position={80}/>
            </div>
 

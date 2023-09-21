@@ -110,11 +110,35 @@ export const ThinnessCampare = () => (
   <div>
 
 
-    <div flex justify-center w-full item-center >
-        <div className="grid grid-cols-2 gap-2 md:grid-cols-2">
+    <div className='flex px-[5%] justify-center w-full item-center' >
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-2">
          
  
          
+           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+             <Beauty position={50}/>
+           </div>
+
+           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+             <Beauty position={50}/>
+           </div>
+
+
+           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+             <Beauty position={50}/>
+           </div>
+
+
+           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+             <Beauty position={50}/>
+           </div>
+
+
+           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+             <Beauty position={50}/>
+           </div>
+
+
            <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
              <Beauty position={50}/>
            </div>

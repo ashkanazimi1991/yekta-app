@@ -36,9 +36,10 @@ const Thinness = () => {
         <p className='text-right text-md text-gray-300 px-6 leading-loose'>
         لاغری موضعی یکی از روش‌های نوین درمان چاقی است که این‌روزها طرفداران زیادی دارد. همه ما نه تنها با شرایط یکسانی متولد نمی‌شویم، بلکه عوامل ارثی، اکتسابی یا برخی وقایع می‌توانند بر میزان چربی بدنمان در نواحی مختلف اثرگذار باشند  
         </p>
-
         <Link href="/fit"> 
-        <p className='bg-[#000] px-3 py-3 my-5 cursor-pointer rounded-full text-white border-2 border-gray-50'>مشاهده همه نمونه کارهای لاغری</p>
+        <button type="button">
+         <p className='bg-[#000] px-3 py-3 my-5 cursor-pointer rounded-full text-white border-2 border-gray-50'>مشاهده همه نمونه کارهای لاغری</p>
+        </button>
         </Link>
     </div>
   </div>

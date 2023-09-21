@@ -72,7 +72,7 @@ export default class FiledSlider extends Component {
                <Image  src={img2}  alt="carnet" width='280' height='150'
                   className="  rounded-full border-6  w-28 h-28 border-rose-600 p-1 shadow shadow-[#E08798]  object-cover "/>
           </div>
-             <p className='text-center  w-36  text-gray-200 py-2 '>لیزر</p> 
+             <p className='text-center  w-36  text-gray-800 py-2 '>لیزر</p> 
    </div>
          
 
@@ -83,7 +83,7 @@ export default class FiledSlider extends Component {
                <Image  src={img1}  alt="carnet" width='280' height='150'
                   className="  rounded-full w-28 h-28  border-6   border-rose-600 p-1 shadow shadow-[#E08798] object-cover "/>
           </div>
-             <p className='text-center  w-36 text-gray-200 py-2 '>فشیال</p> 
+             <p className='text-center  w-36 text-gray-800 py-2 '>فشیال</p> 
    </div>
 
     
@@ -93,7 +93,7 @@ export default class FiledSlider extends Component {
                <Image  src={img3}  alt="carnet" width='280' height='150'
                   className="  rounded-full border-6   border-rose-600 p-1 shadow shadow-[#E08798] w-28 h-28   object-cover "/>
           </div>
-             <p className='text-center  w-36 text-gray-200 py-2 '>CO2</p> 
+             <p className='text-center  w-36 text-gray-800 py-2 '>CO2</p> 
    </div>
    
 
@@ -103,7 +103,7 @@ export default class FiledSlider extends Component {
                <Image  src={img4}  alt="carnet" width='280' height='150'
                   className="  rounded-full border-6   border-rose-600 p-1 shadow shadow-[#E08798] w-28 h-28   object-cover "/>
           </div>
-             <p className='text-center  w-36 text-gray-200 py-2 '>لاغری</p> 
+             <p className='text-center  w-36 text-gray-800 py-2 '>لاغری</p> 
        </div>
 
 
@@ -112,7 +112,7 @@ export default class FiledSlider extends Component {
                <Image  src={img5}  alt="carnet" width='280' height='150'
                   className="  rounded-full border-6   border-rose-600 p-1 shadow shadow-[#E08798] w-28 h-28   object-cover "/>
           </div>
-             <p className='text-center  w-36 text-gray-200 py-2 '>بوتاکس</p> 
+             <p className='text-center  w-36 text-gray-800 py-2 '>بوتاکس</p> 
        </div>
 
 
@@ -121,7 +121,7 @@ export default class FiledSlider extends Component {
                <Image  src={img6}  alt="carnet" width='280' height='150'
                   className="  rounded-full border-6   border-rose-600 p-1 shadow shadow-[#E08798] w-28 h-28   object-cover "/>
           </div>
-             <p className='text-center  w-36 text-gray-200 py-2 '>فیلر</p> 
+             <p className='text-center  w-36 text-gray-800 py-2 '>فیلر</p> 
        </div>
 
 
