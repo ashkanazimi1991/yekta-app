@@ -2,7 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+/* @import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-calendars/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';  
+@import '../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-react-grids/styles/material.css"; */
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+
 @font-face {
   font-family: "IRANSansWeb";
   src: url("/fonts/IRANSansWeb.ttf");
 }
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* background: #eee;
+  
+  font-size: 14px;
+  color: #000; */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper {
+  width: full;
+  height: 320px;
+} */
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   border-radius: 18px; 
+
+  
+}
+
+
