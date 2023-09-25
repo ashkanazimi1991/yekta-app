@@ -5,7 +5,7 @@ import BF_Botaxes from '../components/Compare/BF_Botaxes'
 
 const botox = () => {
   return (
-    <div>
+    <div className='bg-[#0000008e]'>
               <Image
              className=" fixed -z-20 top-0 w-[100%] md:w-screen object-cover h-full "
              src="/images/botoxmodel.jpg"
@@ -42,6 +42,21 @@ const botox = () => {
     
     
         </div> */}
+          <p className='text-center text-xl text-gray-50 pt-12'>نمونه کارهای بوتاکس</p>
+        <div className=' flex flex-row-reverse space-x-4 justify-center items-center py-6 mt-8'>
+          <Image
+             className=" object-cover rounded-md  w-28 border border-red-500 shadow-md  shadow-rose-500 "
+             src="/images/dr16.jpg"
+             width='400'
+             height='400'
+             alt="CEO"
+            />
+            <div className='flex flex-col justify-center pr-6 items-center'>
+                <p className='text-right text-gray-50 w-full'> ........دکتر </p>
+                <p className='text-right text-gray-50 w-full'> ...........................<br></br>......................بیوگرافی </p>
+            </div>
+
+        </div>
           <BF_Botaxes/>
   
       </div>

@@ -10,8 +10,8 @@ export default class ClinicSlider extends Component {
       autoplay:true,
       infinite: true,
       initialSlide: 2,
-      fade: true,
-      slidesToShow: 1,
+      // fade: true,
+      slidesToShow: 2,
       dots:true,
       slidesToScroll: 1,
       speed: 1500,
@@ -19,15 +19,15 @@ export default class ClinicSlider extends Component {
       adaptiveHeight: true,
       pauseOnHover: true,
       // responsive: [
-      //   {
-      //     breakpoint: 1024,
-      //     settings: {
-      //       slidesToShow: 3,
-      //       slidesToScroll: 3,
-      //       infinite: true,
-      //       dots: true
-      //     }
-      //   },
+      //   // {
+      //   //   breakpoint: 1024,
+      //   //   settings: {
+      //   //     slidesToShow: 3,
+      //   //     slidesToScroll: 3,
+      //   //     infinite: true,
+      //   //     dots: true
+      //   //   }
+      //   // },
       //   // {
       //   //   breakpoint: 1200,
       //   //   settings: {
@@ -64,8 +64,21 @@ export default class ClinicSlider extends Component {
             </div>
           </div>
 
+          <div >
+              {/* <h1 className="text-[#80ece1] sm:text-sm py-3  opacity-0 hover:opacity-100 text-xl lg:text-lg text-center " >{this.props.title1} </h1> */}
+            <div className="flex justify-center">
+            <Image height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
+               src={this.props.img1} alt=" مدیریت آنلاین" />
+            </div>
+          </div>
  
-        
+          <div>
+              {/* <h1 className="text-[#80ece1] sm:text-sm py-3 text-xl lg:text-lg text-center " >{this.props.title2}</h1> */}
+            <div className="flex justify-center">
+            <Image height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+            </div>
+          </div>
+
 
 
         </Slider>

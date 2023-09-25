@@ -1,11 +1,24 @@
-
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 import Hero from '@/components/Hero';
-import Botox from '@/components/Botox';
-import Thinness from '../components/Thinness';
-import HeroAbout from '@/components/HeroAbout';
-import FixedVideo from '@/components/FixedVideo';
-import Faq from '@/components/Faq';
+
+
+const Botox = dynamic(() => import('../components/Botox'))
+const CollapsibleListB = dynamic(() => import('../components/CollapsibleListB'))
+const CollapsibleListT = dynamic(() => import('../components/CollapsibleListT'))
+const CollapsibleListL = dynamic(() => import('../components/CollapsibleListL'))
+const Thinness = dynamic(() => import('../components/Thinness'))
+const HeroAbout = dynamic(() => import('../components/HeroAbout'))
+const FixedVideo = dynamic(() => import('../components/FixedVideo'))
+const Laser = dynamic(() => import('../components/Laser'))
+const Faq = dynamic(() => import('../components/Faq'))
+
+
+
+
+
+
+
 
 export default function Home() {
   return (
@@ -32,8 +45,13 @@ export default function Home() {
     <Hero/>
     <HeroAbout/>
     <Botox/>
+    <CollapsibleListB />
     <FixedVideo/>
     <Thinness/>
+    <CollapsibleListT />
+    <Laser/>
+    <CollapsibleListL />
+
     <Faq/>
 </div>
 

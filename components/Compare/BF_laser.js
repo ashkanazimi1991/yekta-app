@@ -35,9 +35,9 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemOne={
         <ReactCompareSliderImage
-        src="/images/lip2.jpg"
+        src="/images/laser1.jpg"
           style={{ 
-            filter: "grayscale(1)",
+            // filter: "grayscale(1)",
    
           }}
           alt="کلینیک یکتا"
@@ -45,7 +45,7 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemTwo={
         <ReactCompareSliderImage
-        src="/images/lip1.jpg"
+        src="/images/laser2.jpg"
 
           alt="کلینیک زیبایی"
         />
@@ -68,7 +68,7 @@ export const Beauty = ({ style, ...props }) => {
 
 
 
-export const BF_Botax = () => (
+export const BF_laser = () => (
   <div>
 
 
@@ -77,7 +77,7 @@ export const BF_Botax = () => (
          
        
          
-           <div className=" flex justify-center rounded-full bg-green-400 items-center    ">
+           <div className=" flex justify-center rounded-full items-center md:px-[10%]  sm:px-2 ">
              <Beauty position={20}/>
            </div>
 
@@ -92,4 +92,4 @@ export const BF_Botax = () => (
     <CustomHandle position={50} /> */}
   </div>
 );
-export default BF_Botax
+export default BF_laser

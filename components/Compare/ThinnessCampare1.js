@@ -25,22 +25,24 @@ export const Beauty = ({ style, ...props }) => {
         <ReactCompareSliderHandle
           buttonStyle={{
             backdropFilter: undefined,
-            background: "white",
+            background: "",
             border: 0,
+             borderRadius:'20%',
+
             color: "#333"
           }}
         />
       }
       itemOne={
         <ReactCompareSliderImage
-        src="/images/thin02.jpg"
-          // style={{ filter: "grayscale(1)" }}
+        src="/images/thin01.jpg"
+          style={{ filter: "grayscale(1)" }}
           alt="one"
         />
       }
       itemTwo={
         <ReactCompareSliderImage
-        src="/images/thin01.jpg"
+        src="/images/thin02.jpg"
 
           alt="two"
         />
@@ -50,7 +52,9 @@ export const Beauty = ({ style, ...props }) => {
         display: "flex",
         width: "100%",
         height: "50vh",
-        // ...style
+        borderRadius:'20%',
+
+        ...style
       }}
     />
   );
@@ -61,50 +65,55 @@ export const Beauty = ({ style, ...props }) => {
 
 
 
-export const Skin = ({ style, ...props }) => {
-  const handlePositionChange = useCallback(
-    (position) => console.log("[Portrait]", position),
-    []
-  );
+// export const Skin = ({ style, ...props }) => {
+//   const handlePositionChange = useCallback(
+//     (position) => console.log("[Portrait]", position),
+//     []
+//   );
 
-  return (
-    <ReactCompareSlider
-      {...props}
-      handle={
-        <ReactCompareSliderHandle
-          buttonStyle={{
-            backdropFilter: undefined,
-            background: "white",
-            border: 0,
-                        color: "#333"
-          }}
-        />
-      }
-      itemOne={
-        <ReactCompareSliderImage
-        src="/images/botax01.jpg"
-          // style={{ filter: "grayscale(1)" }}
-          alt="کلینیک زیبایی"
-        />
-      }
-      itemTwo={
-        <ReactCompareSliderImage
-        src="/images/botax02.jpg"
+//   return (
+//     <ReactCompareSlider
+//       {...props}
+//       handle={
+//         <ReactCompareSliderHandle
+//           buttonStyle={{
+//             backdropFilter: undefined,
+//             background: "white",
+//             border: 0,
+//                         color: "#333"
+//           }}
+//         />
+//       }
+//       itemOne={
+//         <ReactCompareSliderImage
+//         src="/images/botax01.jpg"
+//           style={{ 
+//             filter: "grayscale(1)",
+//             borderRadius:'20%',
 
-          alt="کلینیک یکتا"
-        />
-      }
-      onPositionChange={handlePositionChange}
-      style={{
-        display: "flex",
-        width: "100%",
-        height: "50vh",
+//            }}
+//           alt="کلینیک زیبایی"
+//         />
+//       }
+//       itemTwo={
+//         <ReactCompareSliderImage
+//         src="/images/botax02.jpg"
+
+//           alt="کلینیک یکتا"
+//         />
+//       }
+//       onPositionChange={handlePositionChange}
+//       style={{
+//         display: "flex",
+//         width: "100%",
+//         height: "50vh",
+//         borderRadius:'20%',
         
-        // ...style
-      }}
-    />
-  );
-};
+//         ...style
+//       }}
+//     />
+//   );
+// };
 
 export const ThinnessCampare1 = () => (
   <div>
@@ -115,8 +124,8 @@ export const ThinnessCampare1 = () => (
          
  
          
-           <div className=" bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
-             <Beauty position={50}/>
+           <div className="  rounded-xl  p-1">
+             <Beauty position={30}/>
            </div>
 
            {/* <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">

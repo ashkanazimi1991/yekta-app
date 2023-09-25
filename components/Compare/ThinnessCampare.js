@@ -110,42 +110,43 @@ export const ThinnessCampare = () => (
   <div>
 
 
-    <div className='flex px-[5%] justify-center w-full item-center' >
+    <div className='flex py-6 px-[5%] justify-center w-full item-center' >
         <div className="grid grid-cols-2 gap-8 md:grid-cols-2">
          
  
-         
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+                    <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+
+             <Beauty position={50}/>
+           </div>
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+
+                <video   controls  className="h-64 xl:h-96  object-cover "  >
+                <source   src="/video/bg.mp4"   type="video/mp4"  />
+                    Your browser does not support the video tag.
+                </video>
+           </div>
+
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+
              <Beauty position={50}/>
            </div>
 
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+
              <Beauty position={50}/>
            </div>
 
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
 
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
              <Beauty position={50}/>
            </div>
 
+           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
 
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
              <Beauty position={50}/>
            </div>
 
-
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
-             <Beauty position={50}/>
-           </div>
-
-
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
-             <Beauty position={50}/>
-           </div>
-
-           <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
-             <Beauty position={50}/>
-           </div>
+       
 
         </div>
     </div>

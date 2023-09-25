@@ -8,10 +8,23 @@ import { HiOutlineMail } from "react-icons/hi";
 const Footer = () => {
     return (
         <footer className='flex flex-col z-20 md:flex-col  justify-center py-2 bg-[#0f1a20f6]'>
+          
+          <div className=' w-full px-[10%] flex md:flex-col justify-center items-center py-4 '>
+            <div className='flex  w-[300px]  '>
+            <iframe className='rounded-xl bg-[#3f64aa38] p-4 brightness-50  hover:brightness-75' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d197.73301836896493!2d45.05192522390694!3d37.537901691832246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1695483487827!5m2!1sen!2sde" width="300" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div className='flex flex-col space-y-4 justify-center px-[10%] items-center w-1/2 md:w-full'>
+                <p className='text-right text-gray-200 w-full md:hidden'>آدرس</p>
+                <p className='text-right md:text-center text-sm text-gray-300 leading-loose  '>ارومیه، خیابان حسنی،نبش مجتمع تفریحی ژابیز،ساختمان ماندگار،طبقه 8واحد 806</p>
+            </div>
+          </div>
+          
+          
             <div className="flex justify-center md:w-full  ">
                 <ul className="flex items-center justify-center gap-4  ">
                     <li>
-                        <Link href='tel:+989141472686'>
+                        <Link href='tel:+984433459293'>
                             <FiPhone className='text-xl text-[#f7f7f7] transition hover:text-teal-700/75 '/> 
                         </Link> 
                     </li>

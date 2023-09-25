@@ -107,7 +107,7 @@ export const Skin = ({ style, ...props }) => {
   );
 };
 
-export const BF_Botaxes = () => (
+export const BF_laseres = () => (
   <div className="w-full ">
      
 
@@ -115,7 +115,10 @@ export const BF_Botaxes = () => (
         <div className="grid grid-cols-2 gap-12 ">  
          
            <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
-             <Skin position={80} />
+           <video   controls  className="h-64 xl:h-96  object-cover "  >
+                <source   src="/video/bg.mp4"   type="video/mp4"  />
+                    Your browser does not support the video tag.
+                </video>
            </div>
          
            <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
@@ -145,4 +148,4 @@ export const BF_Botaxes = () => (
 
   </div>
 );
-export default BF_Botaxes
+export default BF_laseres

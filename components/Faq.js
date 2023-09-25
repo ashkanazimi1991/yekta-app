@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import SliderP from './SliderP'
+import ToolsSlider from './ToolsSlider'
 import {
   Accordion,
   AccordionItem,
@@ -23,9 +24,16 @@ const Faq = () => {
   return (
     <ChakraProvider theme={theme}>
     <div className=' flex-col py-14 bg-[#000000c2]'>
-
+        <p className='w-full text-gray-200 text-center'>امکانات و دستکاه های مجموعه</p>
    
-   
+    <ToolsSlider   
+            img1='/images/tools1.jpg' img2='/images/tools2.jpg' 
+            //  img3='/images/tools3.jpg' img4='/images/tools4.jpg'
+            //  img5='/images/office02.jpg' img6='/images/yekta-bg.jpg'
+           title1=' ------  ' title2='----- ' 
+        //   title3='Healthcare and Lifestyle'
+          //  title4='Blockchain and Crypto' title5='Service Base Platforms' title6='Robotic and IoT' 
+          />
    
    
    
