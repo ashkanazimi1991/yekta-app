@@ -1,8 +1,8 @@
-import ThinnessCampare from './Compare/ThinnessCampare';
+import BF_Botaxes from './Compare/BF_Botaxes';
 import React, { useState } from 'react';
 
 
-const CollapsibleListT = () => {
+const CollapsibleListFiler = () => {
   const [isVisible, setIsVisible] = useState(false);
 
  const handleToggle = () => {
@@ -11,15 +11,15 @@ const CollapsibleListT = () => {
 
  return (
     <div className='bg-[#0f1a20f6] '>
-      <button onClick={handleToggle} className='flex justify-center w-full py-4 animate-pulse text-purple-500 '>
+      <button onClick={handleToggle} className='flex justify-center w-full py-4 animate-pulse text-purple-500  '>
         {isVisible ? 'مشاهده کمتر' : 'مشاهده بیشتر'} 
       </button>
       <div style={{ display: isVisible ? 'block' : 'none' }}>
-      <ThinnessCampare/>
+      <BF_Botaxes/>
       </div>
     </div>
  );
 };
 
 
-export default CollapsibleListT;
+export default CollapsibleListFiler;

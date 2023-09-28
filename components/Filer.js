@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
-import ThinnessCampare1 from './Compare/ThinnessCampare1';
+import BF_filer from './Compare/BF_filer';
 import ModalT from './ModalT';
 // import Link from 'next/link';
 import ToolsSlider from './ToolsSlider';
 
 
 
-const Thinness = () => {
+const Filer = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -26,13 +26,13 @@ const Thinness = () => {
 
       <div className='flex md:flex-col-reverse w-full px-5'>
         <div className='flex justify-center  items-center w-1/2 md:w-full'>
-          <ThinnessCampare1/>             
+          <BF_filer/>             
         </div>
 
         <div className='flex flex-col justify-center  items-center w-1/2 md:w-full'>
           <div className='flex justify-center items-center'>
             <div>
-              <p className='text-2xl text-right w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لاغری</p>
+              <p className='text-2xl text-right w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش فیلر</p>
              
                <button  className="text-sm text-right w-full py-2 px-6  animate-pulse  text-purple-500"   onClick={openModal}>
               امکانات و تجهیزات 
@@ -89,4 +89,4 @@ const Thinness = () => {
   )
 }
 
-export default Thinness
+export default Filer

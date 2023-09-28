@@ -65,50 +65,50 @@ const Nav = ({ isOpen, onClose }) => {
 
 
 
-              <button className="flex w-full justify-end my-4  bg-gradient-to-l from-white hover:bg-gray-900 py-2 rounded-full shadow-2xl  items-center">
+                <Link className="w-full" href='https://boghrat.com/clinics/yekta-aesthetic-group/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9-%DB%8C%DA%A9%D8%AA%D8%A7'>
+              <button className="flex w-full justify-end my-4  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-full shadow-2xl  items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center  items-center'>
-                <Link href='https://boghrat.com/clinics/yekta-aesthetic-group/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9-%DB%8C%DA%A9%D8%AA%D8%A7'>
 
-                 <h3 className="text-gray-700 text-center w-full px-4 py-2"> دریافت نوبت</h3>
+                 <h3 className="text-gray-100 text-center w-full px-4 py-2"> دریافت نوبت</h3>
+                 <BsCalendarDate className="text-2xl mr-4 text-gray-100" />
+                </div>
+
+             </button>
                  </Link>
-                 <BsCalendarDate className="text-2xl mr-4 text-[#E08798]" />
-                </div>
 
-             </button>
-
-             <button className="flex w-full justify-end my-4  bg-gradient-to-l from-white hover:bg-gray-900 py-2 rounded-full  shadow-2xl  items-center">
+                 <button className="flex w-full justify-end my-4  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-full shadow-2xl  items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-700 text-center w-full px-4 py-2"> نمونه کارها</h3>
-                 <BsCalendarCheck className="text-2xl mr-4 text-[#E08798]" />
+                 <h3 className="text-gray-100 text-center w-full px-4 py-2"> نمونه کارها</h3>
+                 <BsCalendarCheck className="text-2xl mr-4 text-gray-100" />
                 </div>
 
              </button>
 
-             <button className="flex w-full justify-end my-4  bg-gradient-to-l from-white hover:bg-gray-900   shadow-2xl py-2 rounded-full items-center">
+             <button className="flex w-full justify-end my-4  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-full shadow-2xl  items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-700 text-center w-full px-4 py-2"> رضایتمندها  </h3>
-                 <BsCalendar2Heart className="text-2xl mr-4 text-[#E08798]" />
+                 <h3 className="text-gray-100 text-center w-full px-4 py-2"> رضایتمندها  </h3>
+                 <BsCalendar2Heart className="text-2xl mr-4 text-gray-100" />
                 </div>
 
                 </button>
 
 
-             <button className="flex w-full justify-end my-4  bg-gradient-to-l from-white hover:bg-gray-900   shadow-2xl py-2 rounded-full items-center">
+                <button className="flex w-full justify-end my-4  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-full shadow-2xl  items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-700 text-center w-full px-4 py-2"> مقالات</h3>
-                 <BsCardHeading className="text-3xl mr-4 text-[#E08798]" />
+                 <h3 className="text-gray-100 text-center w-full px-4 py-2"> مقالات</h3>
+                 <BsCardHeading className="text-3xl mr-4 text-gray-100" />
                 </div>
 
                 </button>
@@ -117,33 +117,19 @@ const Nav = ({ isOpen, onClose }) => {
              
 
               
-              <button className="flex w-full justify-end my-4  bg-gradient-to-l from-white hover:bg-gray-900  shadow-2xl py-2 rounded-full items-center">
+                <Link className="w-full" href='/about'>
+                <button className="flex w-full justify-end my-4  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-full shadow-2xl  items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-700 text-center w-full px-4 py-2"> ارتباط با ما</h3>
-                 <BsChatLeftHeart className="text-2xl mr-4 text-[#E08798]" />
+
+                 <h3 className="text-gray-100 text-center w-full px-4 py-2"> ارتباط با ما</h3>
+                 <BsChatLeftHeart className="text-2xl mr-4 text-gray-100" />
                 </div>
                 </button>
-              
+              </Link>
 
-
-        {/* <div className="flex justify-around  space-x-2">
-           <button className='flex justify-around  bg-gray-700    ounded items-center mt-6 ' >
-            <p className=' text-sm px-4 py-2 sm:text-xs text-gray-200 hover:text-rose-400'>خروج از حساب</p>
-            <AiOutlineLogout className="text-2xl mr-4 text-rose-500 " />
-           </button>
-
-
-           <div className='flex justify-around  bg-gray-700  rounded items-center mt-6 ' >
-            <p className=' text-sm px-4 py-2 sm:text-xs text-gray-200 hover:text-rose-400  '>پیشتیبانی</p>
-            <BiSupport className="text-2xl mr-4 text-rose-500 hover:text-green-400" />
-           </div>
-
-
-        </div>
-        */}
 
         
 

@@ -11,7 +11,7 @@ export default class ToolsSlider extends Component {
       infinite: true,
       initialSlide: 2,
       // fade: true,
-      slidesToShow: 2,
+      slidesToShow: 1,
       dots:true,
       slidesToScroll: 1,
       speed: 1500,
@@ -49,32 +49,34 @@ export default class ToolsSlider extends Component {
     return (
       <div className=" items-center container py-8 overflow-hidden">
         <Slider {...settings}>
-          <div >
-              <p className="text-[#80ece1] sm:text-sm py-3   text-md text-center " >{this.props.title1} </p>
-            <div className="flex justify-center">
-            <Image height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
+          <div className="flex flex-col justify-center items-center px-10" >
+              <p className="text-rose-700  text-sm py-4 px-[2%]  text-center " >{this.props.title1} </p>
+            <div className="flex flex-col  justify-center">
+            <Image height='1200' width='1200'  className="  object-cover rounded-xl  justify-center "
                src={this.props.img1} alt=" مدیریت آنلاین" />
+
+              <p className="text-rose-700  text-sm py-4 px-[8%]  text-center " >{this.props.des1} </p>
             </div>
           </div>
          
-          <div>
-          <p className="text-[#80ece1] sm:text-sm py-3   text-sm lg:text-lg text-center " >{this.props.title2} </p>
-            <div className="flex justify-center">
-            <Image height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
-            </div>
-          </div>
+    
         
-          <div>
-          <p className="text-[#80ece1] sm:text-sm py-3   text-sm lg:text-lg text-center " >{this.props.title2} </p>
-            <div className="flex justify-center">
-            <Image height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+          <div className="flex flex-col justify-center items-center px-10" >
+
+          <p className="text-rose-700  text-sm py-4 px-[2%]  text-center " >{this.props.title2} </p>
+            <div className="flex flex-col  justify-center">
+            <Image height='1200' width='1200' className="  object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+
+            <p className="text-rose-700  text-sm py-4 px-9   text-center " >{this.props.des2} </p>
             </div>
           </div>
  
-          <div>
-          <p className="text-[#80ece1] sm:text-sm py-3   text-sm lg:text-lg text-center " >{this.props.title1} </p>
-            <div className="flex justify-center">
-            <Image height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+          <div className="flex flex-col justify-center items-center px-10" >
+
+          <p className="text-rose-700  text-sm py-4 px-[2%]  text-center " >{this.props.title1} </p>
+            <div className="flex flex-col  justify-center">
+            <Image height='1200' width='1200' className="   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+            <p className="text-rose-700  text-sm py-4 px-[8%]  text-center " >{this.props.des2} </p>
             </div>
           </div>
 

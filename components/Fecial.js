@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import Image from 'next/image';
-import ThinnessCampare1 from './Compare/ThinnessCampare1';
+
 import ModalT from './ModalT';
 // import Link from 'next/link';
 import ToolsSlider from './ToolsSlider';
 
 
 
-const Thinness = () => {
+const Fecial = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
@@ -18,24 +18,33 @@ const Thinness = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#0f1a20f6]    '>
+    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#000000c2]   '>
 
-        {/* <div className='flex flex-col py-6  justify-center w-full items-center   bg-via-gray-100'> */}
-        
-        {/* <div className='flex flex-col space-y-6 justify-center items-center px-6  w-full py-6'> */}
+    
 
-      <div className='flex md:flex-col-reverse w-full px-5'>
+      <div className='flex flex-row-reverse md:flex-col-reverse w-full px-5'>
         <div className='flex justify-center  items-center w-1/2 md:w-full'>
-          <ThinnessCampare1/>             
+        <video
+          poster="laser.jpg"
+              autoPlay
+              loop
+              
+               className="rounded-2xl h-96 object-cover"
+              >
+              <source src="/video/facial.mp4" type="video/mp4" />
+              <meta name="apple-mobile-web-app-capable" content="yes" />
+              Your browser does not support the video tag.
+              </video>
+​        
         </div>
 
         <div className='flex flex-col justify-center  items-center w-1/2 md:w-full'>
           <div className='flex justify-center items-center'>
             <div>
-              <p className='text-2xl text-right w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لاغری</p>
+              <p className='text-2xl text-right w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش فشیال</p>
              
                <button  className="text-sm text-right w-full py-2 px-6  animate-pulse  text-purple-500"   onClick={openModal}>
-              امکانات و تجهیزات 
+              امکانات و مواد 
          {/* <AiOutlineFolderOpen className='text-green-400  text-xl text-cernter mx-4 cursor-pointer'/> */}
               </button>
               <ModalT isOpen={isModalOpen} onClose={closeModal} >
@@ -52,13 +61,12 @@ const Thinness = () => {
                   //   title3='Healthcare and Lifestyle'
                     //  title4='Blockchain and Crypto' title5='Service Base Platforms' title6='Robotic and IoT' 
                     />
-
+ 
                  </div>
                 </div>
-                      
-
-                    <p className='text-right text-sm py-4 px-8 leading-loose'> یک روش غیر تهاجمی برای حذف چربی و لاغری موضعی در یک ناحیه مشخص می­باشد. در روش لاغری موضعی با دستگاه کویتیشن، سلول چربی شکسته و از بین . دستگاه کویتیشن با امواج اولتراسوند (نوعی امواج صوتی با فرکانس بالا) کار میکند</p>
-                       
+                      <p className='text-right text-sm py-4 px-8 leading-loose'>
+                     پیدا شدن خطوط ریزودرشت و یا به اصلاح چین‌وچروک در صورت و سیاهی دور چشم و افتادگی ابروها برروی چشم نشانه افزایش سن و القای حس پیری در آدمی می‌باشد. و انسانی که ذاتاً طالب زیبایی است از زمانهای دور در فکر چاره‌ای برای حل این مشکل بوده است
+                     </p>
               </ModalT>
              </div>
           <Image
@@ -71,8 +79,7 @@ const Thinness = () => {
           </div>
 
             <p className='text-right text-md sm:text-xs sm:leading-loose py-4 md:text-center text-gray-300 px-6 leading-loose'>
-            لاغری موضعی یکی از روش‌های نوین درمان چاقی است که این‌روزها طرفداران زیادی دارد. همه ما نه تنها با شرایط یکسانی متولد نمی‌شویم، بلکه عوامل ارثی، اکتسابی یا برخی وقایع می‌توانند بر میزان چربی بدنمان در نواحی مختلف اثرگذار باشند  
-            </p>
+            پیدا شدن خطوط ریزودرشت و یا به اصلاح چین‌وچروک در صورت و سیاهی دور چشم و افتادگی ابروها برروی چشم نشانه افزایش سن و القای حس پیری در آدمی می‌باشد. و انسانی که ذاتاً طالب زیبایی است از زمانهای دور در فکر چاره‌ای برای حل این مشکل بوده است            </p>
         </div>
       </div>
       
@@ -89,4 +96,4 @@ const Thinness = () => {
   )
 }
 
-export default Thinness
+export default Fecial

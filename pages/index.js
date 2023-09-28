@@ -7,13 +7,20 @@ const Botox = dynamic(() => import('../components/Botox'))
 const CollapsibleListB = dynamic(() => import('../components/CollapsibleListB'))
 const CollapsibleListT = dynamic(() => import('../components/CollapsibleListT'))
 const CollapsibleListL = dynamic(() => import('../components/CollapsibleListL'))
+const CollapsibleListFiler = dynamic(() => import('../components/CollapsibleListFiler'))
+const CollapsibleListFacial = dynamic(() => import('../components/CollapsibleListFacial'))
+
+const Fecial = dynamic(() => import('../components/Fecial'))
+
 const Thinness = dynamic(() => import('../components/Thinness'))
 const HeroAbout = dynamic(() => import('../components/HeroAbout'))
 const FixedVideo = dynamic(() => import('../components/FixedVideo'))
 const Laser = dynamic(() => import('../components/Laser'))
 const Faq = dynamic(() => import('../components/Faq'))
+const Filer = dynamic(() => import('../components/Filer'))
 
 
+// import GridGallery from '@/components/grid-gallery';
 
 
 
@@ -21,6 +28,7 @@ const Faq = dynamic(() => import('../components/Faq'))
 
 
 export default function Home() {
+
   return (
 
 <div className='bg-[#00000065]' >
@@ -51,6 +59,10 @@ export default function Home() {
     <CollapsibleListT />
     <Laser/>
     <CollapsibleListL />
+    <Filer/>
+    <CollapsibleListFiler/>
+    <Fecial/>
+    <CollapsibleListFacial/>
 
     <Faq/>
 </div>

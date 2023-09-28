@@ -27,9 +27,11 @@ const Header = () => {
             />
         </Link>
           <div>
+    <Link href='/'>
 
     <p className='text-sm font-bold text-[#E08798]'>YEKTA CLINIC</p>
     <p className='text-xs text-gray-400'> Always Perfect</p>
+    </Link>
 </div>
          </div>
            <div className=' flex justify-center items-center border  w-12 h-12 rounded-full border-[#E08798]'>

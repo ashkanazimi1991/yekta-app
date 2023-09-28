@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col space-y-4 justify-center px-[10%] items-center w-1/2 md:w-full'>
-                <p className='text-right text-gray-200 w-full md:hidden'>آدرس</p>
+                <p className='text-right md:text-center text-sm text-gray-200 w-full '>044 3345 9293 : شماره تماس</p>
                 <p className='text-right md:text-center text-sm text-gray-300 leading-loose  '>ارومیه، خیابان حسنی،نبش مجتمع تفریحی ژابیز،ساختمان ماندگار،طبقه 8واحد 806</p>
             </div>
           </div>
@@ -25,23 +25,23 @@ const Footer = () => {
                 <ul className="flex items-center justify-center gap-4  ">
                     <li>
                         <Link href='tel:+984433459293'>
-                            <FiPhone className='text-xl text-[#f7f7f7] transition hover:text-teal-700/75 '/> 
+                            <FiPhone className='text-xl text-[#f7f7f7] transition hover:text-purple-700/75 '/> 
                         </Link> 
                     </li>
                     <li>
-                        <Link href='https://www.instagram.com/onlineceo_' target='_blank'  aria-label='Instagram'>
-                            <FaInstagram className='my-4 w-10 text-2xl text-[#fff] cursor-pointer transition hover:text-teal-700/75'/> 
+                        <Link href='https://www.instagram.com/yekta_aesthetic_group' target='_blank'  aria-label='Instagram'>
+                            <FaInstagram className='my-4 w-10 text-2xl text-[#fff] cursor-pointer transition hover:text-purple-700/75'/> 
                         </Link>
                     </li>
                 
                     <li>
                         <Link href='https://t.me/AshkanAzimiii' target='_blank'  aria-label='telegram'>
-                            <TbBrandTelegram className='my-4 w-10 text-2xl text-[#fff] cursor-pointer transition hover:text-teal-700/75 '/> 
+                            <TbBrandTelegram className='my-4 w-10 text-2xl text-[#fff] cursor-pointer transition hover:text-purple-700/75 '/> 
                         </Link>  
                     </li>
                     <li>
                         <Link href="mailto:info@onlineceo.org" target='_blank'  aria-label='mail'>
-                            <HiOutlineMail className=' my-4 w-10 text-2xl text-[#fff] cursor-pointer transition hover:text-teal-700/75 '/> 
+                            <HiOutlineMail className=' my-4 w-10 text-2xl text-[#fff] cursor-pointer transition hover:text-purple-700/75 '/> 
                         </Link>  
                     </li>
             
