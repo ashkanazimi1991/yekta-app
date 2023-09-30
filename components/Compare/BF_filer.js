@@ -55,7 +55,7 @@ export const Beauty = ({ style, ...props }) => {
         display: "flex",
         width: "100%",
         height: "50",
-        borderRadius:'20%',
+        borderRadius:'10%',
         
         ...style
       }}

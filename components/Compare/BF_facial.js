@@ -35,7 +35,7 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemOne={
         <ReactCompareSliderImage
-        src="/images/lip2.jpg"
+        src="/images/facial01.jpg"
           style={{ 
             filter: "grayscale(1)",
    
@@ -45,7 +45,7 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemTwo={
         <ReactCompareSliderImage
-        src="/images/lip1.jpg"
+        src="/images/facial02.jpg"
 
           alt="کلینیک زیبایی"
         />
@@ -68,7 +68,7 @@ export const Beauty = ({ style, ...props }) => {
 
 
 
-export const BF_Botax = () => (
+export const BF_facial = () => (
   <div>
 
 
@@ -92,4 +92,4 @@ export const BF_Botax = () => (
     <CustomHandle position={50} /> */}
   </div>
 );
-export default BF_Botax
+export default BF_facial

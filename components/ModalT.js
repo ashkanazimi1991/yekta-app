@@ -22,8 +22,8 @@ const ModalT = ({ isOpen, onClose, children }) => {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex  items-center justify-center p-4 bg-black bg-opacity-50">
-      <div ref={modalRef} className="bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-purple-900 via-gray-100 to-purple-900  h-2/3 overflow-y-scroll scrollbar-hide   rounded shadow-lg  w-full max-w-md">
+    <div className="fixed inset-0 z-50 flex  items-center justify-center p-4  bg-[#000000de] opacity-100">
+      <div ref={modalRef} className="  h-2/3 overflow-y-scroll scrollbar-hide   rounded shadow-lg  w-full max-w-md">
            {/* <Image
              className="  relative  -z-20 top-0 w-full  object-cover h-full "
              src="/images/bg-pink.jpg"

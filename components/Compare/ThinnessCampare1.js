@@ -27,7 +27,7 @@ export const Beauty = ({ style, ...props }) => {
             backdropFilter: undefined,
             background: "",
             border: 0,
-             borderRadius:'20%',
+             borderRadius:'10%',
 
             color: "#333"
           }}
@@ -52,7 +52,7 @@ export const Beauty = ({ style, ...props }) => {
         display: "flex",
         width: "100%",
         height: "50vh",
-        borderRadius:'20%',
+        borderRadius:'10%',
 
         ...style
       }}
@@ -65,7 +65,7 @@ export const Beauty = ({ style, ...props }) => {
 
 
 
-// export const Skin = ({ style, ...props }) => {
+
 //   const handlePositionChange = useCallback(
 //     (position) => console.log("[Portrait]", position),
 //     []
@@ -119,8 +119,8 @@ export const ThinnessCampare1 = () => (
   <div>
 
 
-    <div flex justify-center w-full item-center >
-        {/* <div className="grid grid-cols-1 gap-2 md:grid-cols-2"> */}
+    <div className="flex justify-center  w-full item-center"  >
+    
          
  
          
@@ -128,11 +128,8 @@ export const ThinnessCampare1 = () => (
              <Beauty position={30}/>
            </div>
 
-           {/* <div className="md:col-span-2 bg-[#2f94b338] rounded-xl bg-gradient-to-b  p-1">
-             <Beauty position={50}/>
-           </div> */}
+  
 
-        {/* </div> */}
     </div>
 
   </div>

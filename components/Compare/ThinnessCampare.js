@@ -114,20 +114,21 @@ export const ThinnessCampare = () => (
         <div className="grid grid-cols-2 gap-8 md:grid-cols-2">
          
  
-        <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+        <div className="md:col-span-2 flex justify-center items-center  rounded-xl bg-[#3f64aa38] p-4">
 
-          <video   controls  className="h-64 xl:h-96  object-cover "  >
+          <video   controls  className=" rounded-lg  object-cover "  >
           <source   src="/video/bg.mp4"   type="video/mp4"  />
               Your browser does not support the video tag.
           </video>
           </div>
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+  
+          <div className="md:col-span-2 flex justify-center items-center  rounded-xl bg-[#3f64aa38] p-4">
 
-                <video   controls  className="h-64 xl:h-96  object-cover "  >
-                <source   src="/video/bg.mp4"   type="video/mp4"  />
-                    Your browser does not support the video tag.
-                </video>
-           </div>
+            <video   controls  className=" rounded-lg  object-cover "  >
+            <source   src="/video/bg.mp4"   type="video/mp4"  />
+                Your browser does not support the video tag.
+            </video>
+            </div>
 
            <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
 

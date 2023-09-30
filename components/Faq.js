@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import SliderP from './SliderP'
-// import ToolsSlider from './ToolsSlider'
+import ToolsSlider from './ToolsSlider'
 import {
   Accordion,
   AccordionItem,
@@ -23,9 +23,22 @@ const theme= extendTheme({fonts})
 const Faq = () => {
   return (
     <ChakraProvider theme={theme}>
-    <div className=' flex-col py-14 bg-[#000000c2]'>
+    <div className='flex flex-col justify-center items-center py-14 bg-[#000000c2]'>
+      <div className='flex justify-center items-center w-2/3 md:w-full'>
 
-   
+        <ToolsSlider   
+                          img1='/images/tools10.jpg' img2='/images/tools10.jpg' 
+                          //  img3='/images/tools3.jpg' img4='/images/tools4.jpg'
+                          //  img5='/images/office02.jpg' img6='/images/yekta-bg.jpg'
+                        title1=' ------  ' title2='----- ' 
+                        des1='1دستگاه نمونه  '
+                        des2='2دستگاه نمونه '
+
+                      //   title3='Healthcare and Lifestyle'
+                        //  title4='Blockchain and Crypto' title5='Service Base Platforms' title6='Robotic and IoT' 
+                        />
+
+      </div>
    
    
     <div className=' px-[15%] md:px-[2%] space-x-4 md:space-x-0 md:space-y-4 flex md:flex-col w-full '>
