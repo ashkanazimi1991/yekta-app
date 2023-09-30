@@ -26,34 +26,37 @@ export const Beauty = ({ style, ...props }) => {
           buttonStyle={{
             backdropFilter: undefined,
             background: "",
-            border: 0,
-             borderRadius:'10%',
+            border: 1,
+            borderRadius:'20%',
 
-            color: "#333"
+                        color: "#333"
           }}
         />
       }
       itemOne={
         <ReactCompareSliderImage
         src="/images/thin01.jpg"
-          style={{ filter: "grayscale(1)" }}
-          alt="one"
+          style={{ 
+            filter: "grayscale(1)",
+   
+          }}
+          alt="کلینیک یکتا"
         />
       }
       itemTwo={
         <ReactCompareSliderImage
         src="/images/thin02.jpg"
 
-          alt="two"
+          alt="کلینیک زیبایی"
         />
       }
       onPositionChange={handlePositionChange}
       style={{
         display: "flex",
         width: "100%",
-        height: "50vh",
+        height: "50",
         borderRadius:'10%',
-
+        
         ...style
       }}
     />
@@ -65,73 +68,28 @@ export const Beauty = ({ style, ...props }) => {
 
 
 
-
-//   const handlePositionChange = useCallback(
-//     (position) => console.log("[Portrait]", position),
-//     []
-//   );
-
-//   return (
-//     <ReactCompareSlider
-//       {...props}
-//       handle={
-//         <ReactCompareSliderHandle
-//           buttonStyle={{
-//             backdropFilter: undefined,
-//             background: "white",
-//             border: 0,
-//                         color: "#333"
-//           }}
-//         />
-//       }
-//       itemOne={
-//         <ReactCompareSliderImage
-//         src="/images/botax01.jpg"
-//           style={{ 
-//             filter: "grayscale(1)",
-//             borderRadius:'20%',
-
-//            }}
-//           alt="کلینیک زیبایی"
-//         />
-//       }
-//       itemTwo={
-//         <ReactCompareSliderImage
-//         src="/images/botax02.jpg"
-
-//           alt="کلینیک یکتا"
-//         />
-//       }
-//       onPositionChange={handlePositionChange}
-//       style={{
-//         display: "flex",
-//         width: "100%",
-//         height: "50vh",
-//         borderRadius:'20%',
-        
-//         ...style
-//       }}
-//     />
-//   );
-// };
-
 export const ThinnessCampare1 = () => (
   <div>
 
 
-    <div className="flex justify-center  w-full item-center"  >
-    
+    <div className="flex justify-center    w-full items-center" >
+       
          
- 
+       
          
-           <div className="  rounded-xl  p-1">
-             <Beauty position={30}/>
+           <div className=" flex justify-center rounded-full bg-green-400 items-center    ">
+             <Beauty position={20}/>
            </div>
 
-  
+
 
     </div>
 
+
+
+
+    {/* <Portrait />
+    <CustomHandle position={50} /> */}
   </div>
 );
 export default ThinnessCampare1

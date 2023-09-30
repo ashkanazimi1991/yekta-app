@@ -15,7 +15,7 @@ const Thinness = () => {
 
 
       <div className='flex md:flex-col-reverse w-full px-5'>
-        <div className='flex justify-center h-[30%]  items-center w-2/3 md:w-full'>
+        <div className='flex justify-center h-[30%]  items-center w-1/2 md:w-full'>
           <ThinnessCampare1/>             
         </div>
 

@@ -83,7 +83,7 @@ export const Skin = ({ style, ...props }) => {
       itemOne={
         <ReactCompareSliderImage
         src="/images/botax01.jpg"
-          // style={{ filter: "grayscale(1)" }}
+          style={{ filter: "grayscale(1)" }}
           alt="کلینیک زیبایی"
         />
       }
@@ -98,9 +98,9 @@ export const Skin = ({ style, ...props }) => {
       style={{
         display: "flex",
         width: "100%",
-        height: "50vh",
+        height: "25vh",
         
-        // ...style
+        ...style
       }}
     />
   );
