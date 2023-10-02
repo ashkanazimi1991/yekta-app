@@ -31,7 +31,7 @@ const Header = () => {
   //   setIsOpen(false);
   // };
   return (
-    <div className='fixed w-full mt-2 flex justify-center   top-0 left-0'>
+    <div className='fixed w-full mt-2 z-50 flex justify-center pb-40  top-0 left-0'>
         <div className='flex w-full bg-[#0f1a20c7]  mx-6 rounded-full h-16 pr-2 justify-between items-center'>
            <div className='flex space-x-2 justify-center items-center'>
         <Link href='/'>
@@ -51,7 +51,7 @@ const Header = () => {
     </Link>
 </div>
          </div>
-           <div className=' flex justify-center items-center border  w-12 h-12 rounded-full border-[#E08798]'>
+           <div className=' flex justify-center items-center border  w-12 h-12 rounded-full border-gray-200'>
 
        
 
@@ -60,14 +60,14 @@ const Header = () => {
          {/* <AiOutlineFolderOpen className='text-green-400  text-xl text-cernter mx-4 cursor-pointer'/> */}
               </button>
               <ModalT isOpen={isModalOpen} onClose={closeModal} >
-              <div className="flex  flex-col justify-center pt-10 items-center h-full">
+              <div className="flex  flex-col z-50  justify-center pt-10 items-center h-full">
            
   
               
               
            
               <Link className="w-full" target='blank' href='/about'>
-           <button className="flex w-full justify-end my-4 border border-[#E08798] bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+           <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
         
            <div className='flex justify-center items-center'>
 
@@ -80,7 +80,7 @@ const Header = () => {
 
 
            <Link className="w-full" target='blank' href='https://boghrat.com/clinics/yekta-aesthetic-group/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9-%DB%8C%DA%A9%D8%AA%D8%A7'>
-         <button className="flex w-full border border-[#E08798] justify-end my-4  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+         <button className="flex w-full border border-gray-200 justify-end my-4  bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
            {/* <Image  src={img2}  alt="carnet" width='450' height='150'
              className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
   
@@ -93,18 +93,9 @@ const Header = () => {
         </button>
             </Link>
 
-            <button className="flex w-full justify-end my-4 border border-[#E08798]  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-           {/* <Image  src={img2}  alt="carnet" width='450' height='150'
-             className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
-  
-           <div className='flex justify-center items-center'>
-            <h3 className="text-gray-100 text-center w-full px-4 py-2"> نمونه کارها</h3>
-            <BsCalendarCheck className="text-2xl mr-4 text-gray-100" />
-           </div>
+          
 
-        </button>
-
-        <button className="flex w-full justify-end my-4 border border-[#E08798]  bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+        <button className="flex w-full justify-end my-4 border border-gray-200  bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
            {/* <Image  src={img2}  alt="carnet" width='450' height='150'
              className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
   
@@ -116,7 +107,7 @@ const Header = () => {
            </button>
 
 
-           <button className="flex w-full justify-end my-4 border border-[#E08798] bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+           <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
            {/* <Image  src={img2}  alt="carnet" width='450' height='150'
              className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
   
@@ -132,7 +123,7 @@ const Header = () => {
 
          
            <Link className="w-full" target='blank' href='/about'>
-           <button className="flex w-full justify-end my-4 border border-[#E08798] bg-gradient-to-l from-purple-500 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+           <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
         
            <div className='flex justify-center items-center'>
 

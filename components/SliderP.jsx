@@ -31,7 +31,7 @@ export default function SliderP() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="  py-6  ">
+        <SwiperSlide className="  py-6 z-10 ">
           <div className="flex flex-col w-full  justify-center items-center ">
             <div className="flex justify-around  w-full items-center flex-row-reverse">
             <Image src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>

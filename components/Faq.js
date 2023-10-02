@@ -31,7 +31,7 @@ const Faq = () => {
                           //  img3='/images/tools3.jpg' img4='/images/tools4.jpg'
                           //  img5='/images/office02.jpg' img6='/images/yekta-bg.jpg'
                         title1=' ------  ' title2='----- ' 
-                        des1='1دستگاه نمونه  '
+                        des1='دستگاه هایفو چهار بعدی جوانسازی و لیفتینگ پوست '
                         des2='2دستگاه نمونه '
 
                       //   title3='Healthcare and Lifestyle'
@@ -51,7 +51,7 @@ const Faq = () => {
       <div className=' w-1/2  md:w-full'>
       <div>
       <p className='text-md text-gray-300 py-4 text-center'>
-       سوالات متداول و نظرات کاربران
+       سوالات متداول 
       </p>
       </div>
 
@@ -60,17 +60,16 @@ const Faq = () => {
                         <h2>
                         <AccordionButton  >
                             <Box as="span" flex='1' textAlign='right' fontSize='sm'>
-                            .....................؟
-                                                        </Box>
+                            واقعا دستگاه لاغری جواب میده؟                                                        </Box>
                             <span className="relative flex h-3 w-3">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}>
-...................................................................................................................................................
-                        </AccordionPanel>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        بله خصوصا برای چاقی موضعی مثل پهلو ٫غبغب ٫زیر شکم
+یک بار کرایو انجام بدم جواب میده؟کرایو ماهی یک جلسه انجام میشه که طی هفته دو جلسه کویتیشن حتما ۳الی ۴جلسه لاغری رو احساس میکنید                        </AccordionPanel>
                     </AccordionItem>
 
      
@@ -78,7 +77,7 @@ const Faq = () => {
                         <h2>
                         <AccordionButton  >
                             <Box as="span" flex='1' textAlign='right' fontSize='sm'>
-                            .....................؟
+                            هایفو‌برای چه کسانی مناسب میباشد؟
                                                         </Box>
                             <span className="relative flex h-3 w-3">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
@@ -86,9 +85,8 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}>
-...................................................................................................................................................
-                        </AccordionPanel>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        برای تمام افراد از ۲۵تا ۶۵سالگی هم به عنوان جوانسازی و هم لیفت انجام میشه                        </AccordionPanel>
                     </AccordionItem>
 
 
@@ -96,17 +94,16 @@ const Faq = () => {
                         <h2>
                         <AccordionButton  >
                             <Box as="span" flex='1' textAlign='right' fontSize='sm'>
-                            .....................؟
-                                                        </Box>
+                            هایفو چند وقت یک‌بار انجام میشه؟                                                        </Box>
                             <span className="relative flex h-3 w-3">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}>
-...................................................................................................................................................
-                        </AccordionPanel>
+                        <AccordionPanel color='gray.500' pb={4}  fontSize='sm'>
+                        سالی یک بار       
+                       </AccordionPanel>
                     </AccordionItem>
 
 
@@ -114,16 +111,15 @@ const Faq = () => {
                         <h2>
                         <AccordionButton  >
                             <Box as="span" flex='1' textAlign='right' fontSize='sm'>
-                            .....................؟
-                                                        </Box>
+برای  رفع موهای زائد چند جلسه باید لیزر کرد                                                        </Box>
                             <span className="relative flex h-3 w-3">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}>
-...................................................................................................................................................
+                        <AccordionPanel color='gray.500' pb={4}  fontSize='sm'>
+                        از جلسه اول نتیجه کار رو میبینید حد اکثر ۳الی۸جلسه    
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -131,19 +127,38 @@ const Faq = () => {
                         <h2>
                         <AccordionButton  >
                             <Box as="span" flex='1' textAlign='right' fontSize='sm'>
-                            .....................؟
-                                                        </Box>
+                            بازه زمانی نتیجه دهی دستگاه co2 چقدر است؟
+                                                                                    </Box>
                             <span className="relative flex h-3 w-3">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}>
-...................................................................................................................................................
-                        </AccordionPanel>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        با توجه به عمق اسکار بعد از بررسی‌های لازم تعداد جلسات لیزر فرکشنال co2 تعیین می‌شود که حداکثر برای دریافت نتایج مطلوب نیاز به ۳ تا ۴ جلسه می‌باشد                        </AccordionPanel>
                     </AccordionItem>
 
+
+
+                    <AccordionItem color='blue.500'  >
+                        <h2>
+                        <AccordionButton  >
+                            <Box as="span" flex='1' textAlign='right' fontSize='sm'>
+                            ماندگاری دستگاه CO2  تا چندوقت می باشد؟                                                                                    </Box>
+                            <span className="relative flex h-3 w-3">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                        </span>
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        مراقبت‌های بیمار بعد از لیزر از پوست خود
+سلامت عمومی بدن
+استعمال دخانیات,
+کاهش یا افزایش قابل توجه وزن,
+ عدم استفاده از کرم ضد آفتاب یا کلاه در مقابل نور خورشید بستگی دارد بنابراین اگر می‌خواهید لیزر فرکشنال CO2   برای پوست شما نتایج ماندگار داشته باشد بهتر است توصیه های متخصص را در خصوص نحوه مراقبت از پوست خود بعد از لیزر به دقت رعایت نمایید اما بطور کلی برای پروسه های اسکار بعد جراحی  مادام العمر ولی برای جای جوش یا جوانسازی و بردن چین و چروک صورت سالی یک بار یا حتی دو سال یک بار                                       </AccordionPanel>
+                    </AccordionItem>
       </Accordion>
 
       </div>
@@ -157,7 +172,7 @@ const Faq = () => {
       </div>
       <div>
       <Link href='https://boghrat.com/clinics/yekta-aesthetic-group/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9-%DB%8C%DA%A9%D8%AA%D8%A7' className=' flex justify-center pt-8'>
-                    <p className='text-white flex justify-center border-gray px-4 bg-[#E08798] py-2 border-2 text-md rounded-2xl shadow-2xl '>دریافت نوبت</p>
+                    <p className='text-white flex justify-center border-gray px-4 bg-rose-700 py-2 border-2 text-md rounded-2xl shadow-2xl '>دریافت نوبت</p>
       </Link>
       </div>
     </div>

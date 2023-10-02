@@ -9,6 +9,8 @@ const CollapsibleListT = dynamic(() => import('../components/CollapsibleListT'))
 const CollapsibleListL = dynamic(() => import('../components/CollapsibleListL'))
 const CollapsibleListFiler = dynamic(() => import('../components/CollapsibleListFiler'))
 const CollapsibleListFacial = dynamic(() => import('../components/CollapsibleListFacial'))
+const CollapsibleListLifting = dynamic(() => import('../components/CollapsibleListLifting'))
+
 
 const Fecial = dynamic(() => import('../components/Fecial'))
 
@@ -18,6 +20,14 @@ const FixedVideo = dynamic(() => import('../components/FixedVideo'))
 const Laser = dynamic(() => import('../components/Laser'))
 const Faq = dynamic(() => import('../components/Faq'))
 const Filer = dynamic(() => import('../components/Filer'))
+const Lifting = dynamic(() => import('../components/Lifting'))
+const Tato = dynamic(() => import('../components/Tato'))
+const Co2 = dynamic(() => import('../components/Co2'))
+const CollapsibleListCo2 = dynamic(() => import('../components/CollapsibleListCo2'))
+
+
+
+
 
 
 // import GridGallery from '@/components/grid-gallery';
@@ -63,7 +73,11 @@ export default function Home() {
     <CollapsibleListFiler/>
     <Fecial/>
     <CollapsibleListFacial/>
-
+    <Lifting/>
+    <CollapsibleListLifting/>
+    <Tato/>
+    <Co2/>
+    <CollapsibleListCo2/>
     <Faq/>
 </div>
 

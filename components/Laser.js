@@ -36,8 +36,9 @@ const Laser = () => {
         <div className='flex flex-col justify-center  items-center w-1/2 md:w-full'>
           <div className='flex justify-center items-center'>
             <div>
-              <p className='text-2xl text-right w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لیزر</p>
+              <p className='text-2xl text-center w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لیزر</p>
              
+             <p className='text-xl text-center w-full py-2 px-6 text-gray-200   pt-4'>Titanium  Laser</p>
 
              </div>
           <Image
@@ -50,8 +51,11 @@ const Laser = () => {
           </div>
 
             <p className='text-right text-md sm:text-xs sm:leading-loose py-4 md:text-center text-gray-300 px-6 leading-loose'>
-            پیدا شدن خطوط ریزودرشت و یا به اصلاح چین‌وچروک در صورت و سیاهی دور چشم و افتادگی ابروها برروی چشم نشانه افزایش سن و القای حس پیری در آدمی می‌باشد. و انسانی که ذاتاً طالب زیبایی است از زمانهای دور در فکر چاره‌ای برای حل این مشکل بوده است            </p>
-        </div>
+            دستگاه لیزر تیتانیوم یکی از کارآمدترین دستگاه های لیزر جهت رفع موهای ناخواسته بدن می باشد که از سه طول موج به طور همزمان استفاده می کند. البته این طول موج ها به عمق لایه های پوست تابانده می شوند و ریشه موهای زائد را مورد هدف قرار می دهند. این دستگاه به جدیدترین فناوری ها و تکنولوژی ها مجهز بوده و جزء پرفروش ترین و پرمصرف ترین دستگاه های موجود در صنعت زیبایی محسوب میشود
+            </p>
+
+
+          </div>
       </div>
       
 

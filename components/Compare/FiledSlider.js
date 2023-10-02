@@ -64,7 +64,7 @@ export default class FiledSlider extends Component {
       ],
     };
     return (
-      <div className="container w-full px-[10%] xl:px-0 pt-14 overflow-hidden">
+      <div className="container w-full px-[10%] xl:px-0 pt-40  overflow-hidden">
         <Slider {...settings}>
      
         <div className="flex flex-col justify-center items-center " >

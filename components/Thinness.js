@@ -22,8 +22,9 @@ const Thinness = () => {
         <div className='flex flex-col justify-center  items-center w-1/2 md:w-full'>
           <div className='flex justify-center items-center'>
             <div>
-              <p className='text-2xl text-right w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لاغری</p>
+              <p className='text-2xl text-center w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لاغری</p>
              
+              <p className='text-xl text-center w-full py-2 px-6 text-gray-200   pt-4'>Cryolipolysis  2023</p>
          
              </div>
           <Image
