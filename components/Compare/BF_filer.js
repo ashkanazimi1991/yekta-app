@@ -35,7 +35,7 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemOne={
         <ReactCompareSliderImage
-        src="/images/botax01.jpg"
+        src="/images/lip2.jpg"
           style={{ 
             filter: "grayscale(1)",
    
@@ -45,7 +45,7 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemTwo={
         <ReactCompareSliderImage
-        src="/images/botax02.jpg"
+        src="/images/lip1.jpg"
 
           alt="کلینیک زیبایی"
         />

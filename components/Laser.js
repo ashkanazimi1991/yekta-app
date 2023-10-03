@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-// import BF_laser from './Compare/BF_laser';
+import BF_laser from './Compare/BF_laser';
 // import ModalT from './ModalT';
 // import Link from 'next/link';
 // import ToolsSlider from './ToolsSlider';
@@ -17,9 +17,9 @@ const Laser = () => {
 
       <div className='flex flex-row-reverse md:flex-col-reverse w-full px-5'>
         <div className='flex justify-center  items-center w-1/2 md:w-full'>
-          {/* <BF_laser/>              */}
+          <BF_laser/>             
     
-          <video
+          {/* <video
           poster="laser.jpg"
               autoPlay
               loop
@@ -29,7 +29,7 @@ const Laser = () => {
               <source src="/video/laser.mp4" type="video/mp4" />
               <meta name="apple-mobile-web-app-capable" content="yes" />
               Your browser does not support the video tag.
-              </video>
+              </video> */}
 ​
         </div>
 

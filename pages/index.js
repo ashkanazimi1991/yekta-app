@@ -45,7 +45,7 @@ export default function Home() {
     <Head>
         <title>Yekta Beauty Clinic </title>
         <meta name="description" content="کلینیک زیبایی یکتا" />
-        <meta name="theme-color" content="#22577E"/>
+        <meta name="theme-color" content="#142028"/>
         <link rel="icon" href="/images/yekta_logo.png" />
         <link rel='manifest' href='/manifest.json' />  
      </Head>

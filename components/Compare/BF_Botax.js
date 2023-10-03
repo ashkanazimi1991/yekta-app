@@ -35,19 +35,19 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemOne={
         <ReactCompareSliderImage
-        src="/images/lip2.jpg"
+        src="/images/botox13.jpg"
           style={{ 
             filter: "grayscale(1)",
    
           }}
-          alt="کلینیک یکتا"
+          alt="کلینیک زیبایی یکتا"
         />
       }
       itemTwo={
         <ReactCompareSliderImage
-        src="/images/lip1.jpg"
+        src="/images/botox14.jpg"
 
-          alt="کلینیک زیبایی"
+          alt="کلینیک زیبایی یکتا"
         />
       }
       onPositionChange={handlePositionChange}

@@ -153,12 +153,70 @@ const Faq = () => {
                         </AccordionButton>
                         </h2>
                         <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
-                        مراقبت‌های بیمار بعد از لیزر از پوست خود
-سلامت عمومی بدن
-استعمال دخانیات,
-کاهش یا افزایش قابل توجه وزن,
- عدم استفاده از کرم ضد آفتاب یا کلاه در مقابل نور خورشید بستگی دارد بنابراین اگر می‌خواهید لیزر فرکشنال CO2   برای پوست شما نتایج ماندگار داشته باشد بهتر است توصیه های متخصص را در خصوص نحوه مراقبت از پوست خود بعد از لیزر به دقت رعایت نمایید اما بطور کلی برای پروسه های اسکار بعد جراحی  مادام العمر ولی برای جای جوش یا جوانسازی و بردن چین و چروک صورت سالی یک بار یا حتی دو سال یک بار                                       </AccordionPanel>
-                    </AccordionItem>
+                            مراقبت‌های بیمار بعد از لیزر از پوست خود
+                          سلامت عمومی بدن
+                          استعمال دخانیات,
+                          کاهش یا افزایش قابل توجه وزن,
+                          عدم استفاده از کرم ضد آفتاب یا کلاه در مقابل نور خورشید بستگی دارد بنابراین اگر می‌خواهید لیزر فرکشنال CO2   برای پوست شما نتایج ماندگار داشته باشد بهتر است توصیه های متخصص را در خصوص نحوه مراقبت از پوست خود بعد از لیزر به دقت رعایت نمایید اما بطور کلی برای پروسه های اسکار بعد جراحی  مادام العمر ولی برای جای جوش یا جوانسازی و بردن چین و چروک صورت سالی یک بار یا حتی دو سال یک بار                                       </AccordionPanel>
+                     </AccordionItem>
+
+                     
+                    <AccordionItem color='blue.500'  >
+                        <h2>
+                        <AccordionButton  >
+                            <Box as="span" flex='1' textAlign='right' fontSize='sm'>
+                            تفاوت فیشال  و پاکسازی چیست ؟           
+                             </Box>
+                            <span className="relative flex h-3 w-3">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                        </span>
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        فیشال در بازه زمانی ۱ تا۲ ساعت انجام میشود ولی پاکسازی جزئی از فیشال است و مدت زمان کمتری طول می کشد
+                        </AccordionPanel>
+                                  
+                     
+                     </AccordionItem>
+
+
+                     <AccordionItem color='blue.500'  >
+                        <h2>
+                        <AccordionButton  >
+                            <Box as="span" flex='1' textAlign='right' fontSize='sm'>
+                            آیا فیشال فقط برای صورت انجام می شود ؟                             </Box>
+                            <span className="relative flex h-3 w-3">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                        </span>
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        خیر ، برای نواحی مثل زیر بغل ، زانو ، دست ها ، کشاله ران نیز انجام می شود         
+                        </AccordionPanel>
+                                  
+                     
+                     </AccordionItem>
+
+                     
+                     <AccordionItem color='blue.500'  >
+                        <h2>
+                        <AccordionButton  >
+                            <Box as="span" flex='1' textAlign='right' fontSize='sm'>
+                            آیا فیشال فقط توسط پزشک انجام می شود ؟                             </Box>
+                            <span className="relative flex h-3 w-3">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                        <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                        </span>
+                        </AccordionButton>
+                        </h2>
+                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        خیر ،  فیشال توسط اسکین کر در کلینیک و تحت نظر پزشک انجام می شود و پزشک در پروسه درمان دخیل می باشد        
+                        </AccordionPanel>
+                                  
+                     
+                     </AccordionItem>
       </Accordion>
 
       </div>
