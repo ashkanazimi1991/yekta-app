@@ -4,6 +4,7 @@ import { FiPhone} from "react-icons/fi";
 import { TbBrandTelegram } from "react-icons/tb";
 import { FaInstagram } from 'react-icons/fa';
 import { HiOutlineMail } from "react-icons/hi";
+import DownloadPWA from './DownloadPWA';
 
 const Footer = () => {
     return (
@@ -49,6 +50,7 @@ const Footer = () => {
             
                 </ul>
             </div>
+            <DownloadPWA />
             <div className='flex flex-col justify-center items-center '>
                 <p className="text-sm text-center  text-gray-500 ">
                 Copyright &copy; 2023. All rights reserved for Yekta Clinic 
@@ -58,7 +60,6 @@ const Footer = () => {
 
                 </Link>
             </div>
-
         </footer>
     );
 }

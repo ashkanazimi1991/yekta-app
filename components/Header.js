@@ -94,29 +94,30 @@ const Header = () => {
             </Link>
 
           
+            <Link className="w-full" target='blank' href='/satisfaction'>
+              <button className="flex w-full justify-end my-4 border border-gray-200  bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+                {/* <Image  src={img2}  alt="carnet" width='450' height='150'
+                  className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
+        
+                <div className='flex justify-center items-center'>
+                  <h3 className="text-gray-100 text-center w-full px-4 py-2"> رضایتمندها  </h3>
+                  <BsCalendar2Heart className="text-2xl mr-4 text-gray-100" />
+                </div>
 
-        <button className="flex w-full justify-end my-4 border border-gray-200  bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-           {/* <Image  src={img2}  alt="carnet" width='450' height='150'
-             className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
-  
-           <div className='flex justify-center items-center'>
-            <h3 className="text-gray-100 text-center w-full px-4 py-2"> رضایتمندها  </h3>
-            <BsCalendar2Heart className="text-2xl mr-4 text-gray-100" />
-           </div>
+                </button>
+           </Link>
 
-           </button>
+           
 
-
-           <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-           {/* <Image  src={img2}  alt="carnet" width='450' height='150'
-             className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
+           {/* <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
+     
   
            <div className='flex justify-center items-center'>
             <h3 className="text-gray-100 text-center w-full px-4 py-2"> مقالات</h3>
             <BsCardHeading className="text-3xl mr-4 text-gray-100" />
            </div>
 
-           </button>
+           </button> */}
 
 
         

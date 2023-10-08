@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import Hero from '@/components/Hero';
-
+// import DownloadPWA from '../components/DownloadPWA';
 
 const Botox = dynamic(() => import('../components/Botox'))
 const CollapsibleListB = dynamic(() => import('../components/CollapsibleListB'))
@@ -79,6 +79,7 @@ export default function Home() {
     <Co2/>
     <CollapsibleListCo2/>
     <Faq/>
+  
 </div>
 
 
