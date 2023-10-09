@@ -1,4 +1,4 @@
-import BF_laseres from './Compare/BF_laseres';
+import BF_Faciales from './Compare/BF-Faciales';
 import React, { useState } from 'react';
 
 
@@ -15,7 +15,7 @@ const CollapsibleListFacial = () => {
         {isVisible ? 'مشاهده کمتر' : 'مشاهده بیشتر'} 
       </button>
       <div style={{ display: isVisible ? 'block' : 'none' }}>
-      <BF_laseres/>
+      <BF_Faciales/>
       </div>
     </div>
  );

@@ -1,8 +1,8 @@
 {
-  "name": "yekta-app",
-  "short_name": "yekta",
-  "theme_color": "#142028",
-  "background_color": "#142028",
+  "name": "Yekta-app",
+  "short_name": "Yekta",
+  "theme_color": "#0f1a20c7",
+  "background_color": "#0f1a20c7",
   "display": "standalone",
   "orientation": "",
   "scope": "/",

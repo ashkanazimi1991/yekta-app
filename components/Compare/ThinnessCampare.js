@@ -114,28 +114,31 @@ export const ThinnessCampare = () => (
         <div className="grid grid-cols-2 gap-8 md:grid-cols-2">
          
  
-        <div className="md:col-span-2 flex justify-center items-center  rounded-xl bg-[#3f64aa38] p-4">
+        <div className="col-span-2 flex justify-center items-center  rounded-xl bg-[#3f64aa38] p-4">
 
        <p className="text-gray-200 text-sm leading-loose text-right">دستگاه کرایولیپولیز۲۰۲۳
 این دستگاه یک فن ‏آوری نوین است. به کمک سرما، به آرامی و به طور مؤثر سلول‌های چربی زیر پوست را هدف قرار می دهد. آن‌ها را کریستالیزه یا منجمد می‌کند. سپس با گذشت زمان، بدن به طور طبیعی چربی‌ها و این سلول‌های مرده را دفع می کند و مجدداً ترمیم می‌کند</p>
           </div>
   
-          <div className="md:col-span-2 flex justify-center items-center  rounded-xl bg-[#3f64aa38] p-4">
+          <div className="md:col-span-2 h-96   rounded-xl bg-[#3f64aa38] p-4">
 
-            <video   controls  className=" rounded-lg  object-cover "  >
-            <source   src="/video/bg.mp4"   type="video/mp4"  />
+            <video   controls  className=" rounded-lg h-full w-full  object-cover "  >
+            <source   src="/video/thin.mp4"   type="video/mp4"  />
                 Your browser does not support the video tag.
             </video>
             </div>
 
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+           {/* <div className="md:col-span-2 h-96 rounded-xl bg-[#3f64aa38] p-4">
 
-             <Beauty position={50}/>
-           </div>
+             <Beauty position={50} className='h-96'/>
+           </div> */}
 
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
+           <div className="md:col-span-2 h-96  rounded-xl bg-[#3f64aa38] p-4">
 
-             <Beauty position={50}/>
+           <video   controls  className=" rounded-lg h-full  w-full  object-cover "  >
+            <source   src="/video/thin2.mp4"   type="video/mp4"  />
+                Your browser does not support the video tag.
+            </video>
            </div>
 
        

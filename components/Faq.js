@@ -228,11 +228,7 @@ const Faq = () => {
 
       
       </div>
-      <div>
-      <Link href='https://boghrat.com/clinics/yekta-aesthetic-group/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9-%DB%8C%DA%A9%D8%AA%D8%A7' className=' flex justify-center pt-8'>
-                    <p className='text-white flex justify-center border-gray px-4 bg-rose-700 py-2 border-2 text-md rounded-2xl shadow-2xl '>دریافت نوبت</p>
-      </Link>
-      </div>
+  
     </div>
       </ChakraProvider>
     

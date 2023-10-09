@@ -119,7 +119,7 @@ export const BF_Botaxes = () => (
            </div>
          
            <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
-             <Beauty position={80}/>
+           <Skin position={80} />
            </div>
 
 
@@ -132,13 +132,7 @@ export const BF_Botaxes = () => (
              <Skin position={80} />
            </div>
 
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
-             <Beauty position={80}/>
-           </div>
-
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
-             <Beauty position={80}/>
-           </div>
+  
 
         </div>
     </div>

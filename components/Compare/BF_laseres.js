@@ -114,15 +114,18 @@ export const BF_laseres = () => (
     <div className=" flex justify-center w-full px-[5%] py-12 item-center  ">
         <div className="grid grid-cols-2 gap-12 ">  
          
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
-           <video   controls  className="h-64 xl:h-96  object-cover "  >
-                <source   src="/video/bg.mp4"   type="video/mp4"  />
+           <div className="md:col-span-2 h-96   rounded-xl bg-[#3f64aa38] p-4">
+           <video   controls  className=" h-full w-full object-cover "  >
+                <source   src="/video/laser.mp4"   type="video/mp4"  />
                     Your browser does not support the video tag.
                 </video>
            </div>
          
-           <div className="md:col-span-2  rounded-xl bg-[#3f64aa38] p-4">
-             <Beauty position={80}/>
+           <div className="md:col-span-2 h-96   rounded-xl bg-[#3f64aa38] p-4">
+           <video   controls  className=" h-full w-full object-cover "  >
+                <source   src="/video/laser.mp4"   type="video/mp4"  />
+                    Your browser does not support the video tag.
+                </video>
            </div>
 
 
