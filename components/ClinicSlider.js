@@ -52,7 +52,7 @@ export default class ClinicSlider extends Component {
           <div >
               {/* <h1 className="text-[#80ece1] sm:text-sm py-3  opacity-0 hover:opacity-100 text-xl lg:text-lg text-center " >{this.props.title1} </h1> */}
             <div className="flex justify-center">
-            <Image height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
+            <img height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
                src={this.props.img1} alt=" مدیریت آنلاین" />
             </div>
           </div>
@@ -60,14 +60,14 @@ export default class ClinicSlider extends Component {
           <div>
               {/* <h1 className="text-[#80ece1] sm:text-sm py-3 text-xl lg:text-lg text-center " >{this.props.title2}</h1> */}
             <div className="flex justify-center">
-            <Image height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+            <img height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
             </div>
           </div>
 
           <div >
               {/* <h1 className="text-[#80ece1] sm:text-sm py-3  opacity-0 hover:opacity-100 text-xl lg:text-lg text-center " >{this.props.title1} </h1> */}
             <div className="flex justify-center">
-            <Image height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
+            <img height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
                src={this.props.img1} alt=" مدیریت آنلاین" />
             </div>
           </div>
@@ -75,7 +75,7 @@ export default class ClinicSlider extends Component {
           <div>
               {/* <h1 className="text-[#80ece1] sm:text-sm py-3 text-xl lg:text-lg text-center " >{this.props.title2}</h1> */}
             <div className="flex justify-center">
-            <Image height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+            <img height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
             </div>
           </div>
 

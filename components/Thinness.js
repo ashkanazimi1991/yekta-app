@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image';
+// import Image from 'next/image';
 import ThinnessCampare1 from './Compare/ThinnessCampare1';
 
 // import Link from 'next/link';
@@ -10,7 +10,7 @@ import ThinnessCampare1 from './Compare/ThinnessCampare1';
 const Thinness = () => {
 
   return (
-    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#0f1a20f6]    '>
+    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#000000c2]     '>
 
 
 
@@ -27,12 +27,12 @@ const Thinness = () => {
               <p className='text-xl text-center w-full py-2 px-6 text-gray-200   pt-4'>Cryolipolysis  2023</p>
          
              </div>
-          <Image
+          <img
              className="  w-20 object-cover  rounded-md h-20 "
              src="/images/yekta_logoIn.png"
-             width='1200'
-             height='800'
-             alt="CEO"
+             width='200'
+             height='200'
+             alt="کلینیک زیبایی یکتا"
             />
           </div>
 

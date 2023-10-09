@@ -11,7 +11,7 @@ import BF_laser from './Compare/BF_laser';
 const Laser = () => {
 
   return (
-    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#000000c2]   '>
+    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#fdfdfdd5]   '>
 
     
 
@@ -36,21 +36,21 @@ const Laser = () => {
         <div className='flex flex-col justify-center  items-center w-1/2 md:w-full'>
           <div className='flex justify-center items-center'>
             <div>
-              <p className='text-2xl text-center w-full py-2 px-6 text-gray-200  font-bold pt-4'>بخش لیزر</p>
+              <p className='text-2xl text-center w-full py-2 px-6 text-gray-600  font-bold pt-4'>بخش لیزر</p>
              
-             <p className='text-xl text-center w-full py-2 px-6 text-gray-200   pt-4'>Titanium  Laser</p>
+             <p className='text-xl text-center w-full py-2 px-6 text-gray-600   pt-4'>Titanium  Laser</p>
 
              </div>
-          <Image
+          <img
              className="  w-20 object-cover  rounded-md h-20 "
              src="/images/yekta_logoIn.png"
-             width='1200'
-             height='800'
-             alt="CEO"
+             width='200'
+             height='200'
+             alt="کلینیک زیبایی یکتا"
             />
           </div>
 
-            <p className='text-right text-md sm:text-xs sm:leading-loose py-4 md:text-center text-gray-300 px-6 leading-loose'>
+            <p className='text-right text-md sm:text-sm sm:leading-loose py-4 md:text-center text-gray-600 px-6 leading-loose'>
             دستگاه لیزر تیتانیوم یکی از کارآمدترین دستگاه های لیزر جهت رفع موهای ناخواسته بدن می باشد که از سه طول موج به طور همزمان استفاده می کند. البته این طول موج ها به عمق لایه های پوست تابانده می شوند و ریشه موهای زائد را مورد هدف قرار می دهند. این دستگاه به جدیدترین فناوری ها و تکنولوژی ها مجهز بوده و جزء پرفروش ترین و پرمصرف ترین دستگاه های موجود در صنعت زیبایی محسوب میشود
             </p>
 

@@ -8,7 +8,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
     return (
-        <footer className='flex flex-col  md:flex-col  justify-center py-2 bg-[#0f1a20f6]'>
+        <footer className='flex flex-col  md:flex-col  justify-center py-2 bg-[#000000c2] '>
           
           <div className=' w-full px-[10%] flex md:flex-col justify-center items-center py-4 '>
             <div className='flex  w-[300px]  '>

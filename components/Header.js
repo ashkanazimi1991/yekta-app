@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import { PiDotsThreeOutlineVerticalFill } from 'react-icons/pi';
 import { BiHomeSmile } from 'react-icons/bi';
@@ -35,7 +35,7 @@ const Header = () => {
         <div className='flex w-full bg-[#0f1a20c7]  mx-6 rounded-full h-16 pr-2 justify-between items-center'>
            <div className='flex space-x-2 justify-center items-center'>
         <Link href='/'>
-           <Image
+           <img
              className=" w-16"
              src="/images/yekta_logo_head.png"
              width='100'
@@ -66,7 +66,7 @@ const Header = () => {
               
               
            
-              <Link className="w-full" target='blank' href='/about'>
+              <Link className="w-full" target='blank' href='/'>
            <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
         
            <div className='flex justify-center items-center'>

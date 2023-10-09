@@ -23,7 +23,7 @@ const theme= extendTheme({fonts})
 const Faq = () => {
   return (
     <ChakraProvider theme={theme}>
-    <div className='flex flex-col justify-center items-center py-14 bg-[#000000c2]'>
+    <div className='flex flex-col justify-center items-center py-14 bg-[#fdfdfdd5]'>
       <div className='flex justify-center items-center w-2/3 md:w-full'>
 
         <ToolsSlider   
@@ -44,13 +44,13 @@ const Faq = () => {
     <div className=' px-[15%] md:px-[2%] space-x-4 md:space-x-0 md:space-y-4 flex md:flex-col w-full '>
 
       <div className=' w-1/2 md:w-full   '>
-        <p className='text-gray-100 text-center w-full border-b-2 py-4 pt-4'> نظرات مراجعه کنندگان </p>
+        <p className='text-gray-600 text-center w-full border-b-2 py-4 pt-4'> نظرات مراجعه کنندگان </p>
          <SliderP/>
       </div>
 
       <div className=' w-1/2  md:w-full'>
       <div>
-      <p className='text-md text-gray-300 py-4 text-center'>
+      <p className='text-md text-gray-700 py-4 text-center'>
        سوالات متداول 
       </p>
       </div>
@@ -67,7 +67,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                         بله خصوصا برای چاقی موضعی مثل پهلو ٫غبغب ٫زیر شکم
 یک بار کرایو انجام بدم جواب میده؟کرایو ماهی یک جلسه انجام میشه که طی هفته دو جلسه کویتیشن حتما ۳الی ۴جلسه لاغری رو احساس میکنید                        </AccordionPanel>
                     </AccordionItem>
@@ -85,7 +85,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                         برای تمام افراد از ۲۵تا ۶۵سالگی هم به عنوان جوانسازی و هم لیفت انجام میشه                        </AccordionPanel>
                     </AccordionItem>
 
@@ -101,7 +101,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}  fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4}  fontSize='sm'>
                         سالی یک بار       
                        </AccordionPanel>
                     </AccordionItem>
@@ -118,7 +118,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4}  fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4}  fontSize='sm'>
                         از جلسه اول نتیجه کار رو میبینید حد اکثر ۳الی۸جلسه    
                         </AccordionPanel>
                     </AccordionItem>
@@ -135,7 +135,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                         با توجه به عمق اسکار بعد از بررسی‌های لازم تعداد جلسات لیزر فرکشنال co2 تعیین می‌شود که حداکثر برای دریافت نتایج مطلوب نیاز به ۳ تا ۴ جلسه می‌باشد                        </AccordionPanel>
                     </AccordionItem>
 
@@ -152,7 +152,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                             مراقبت‌های بیمار بعد از لیزر از پوست خود
                           سلامت عمومی بدن
                           استعمال دخانیات,
@@ -173,7 +173,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                         فیشال در بازه زمانی ۱ تا۲ ساعت انجام میشود ولی پاکسازی جزئی از فیشال است و مدت زمان کمتری طول می کشد
                         </AccordionPanel>
                                   
@@ -192,7 +192,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                         خیر ، برای نواحی مثل زیر بغل ، زانو ، دست ها ، کشاله ران نیز انجام می شود         
                         </AccordionPanel>
                                   
@@ -211,7 +211,7 @@ const Faq = () => {
                         </span>
                         </AccordionButton>
                         </h2>
-                        <AccordionPanel color='gray.500' pb={4} fontSize='sm'>
+                        <AccordionPanel color='gray.600' pb={4} fontSize='sm'>
                         خیر ،  فیشال توسط اسکین کر در کلینیک و تحت نظر پزشک انجام می شود و پزشک در پروسه درمان دخیل می باشد        
                         </AccordionPanel>
                                   

@@ -2,7 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 export default class ToolsSlider extends Component {
   render() {
@@ -52,7 +52,7 @@ export default class ToolsSlider extends Component {
           <div className=" flex justify-center items-center px-10" >
               <p className="text-rose-700  text-sm py-4 px-[2%]  text-center " >{this.props.title1} </p>
             <div className="flex flex-col  justify-center">
-            <Image height='600' width='800'  className="  object-cover rounded-xl  "
+            <img height='600' width='800'  className="  object-cover rounded-xl  "
                src={this.props.img1} alt=" مدیریت آنلاین" />
 
               <p className="text-rose-700  text-sm py-4 px-[8%]  text-center " >{this.props.des1} </p>
@@ -65,7 +65,7 @@ export default class ToolsSlider extends Component {
 
           <p className="text-rose-700  text-sm py-4 px-[2%]  text-center " >{this.props.title2} </p>
             <div className="flex flex-col  justify-center">
-            <Image height='600' width='800' className="  object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+            <img height='600' width='800' className="  object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
 
             <p className="text-rose-700  text-sm py-4 px-9   text-center " >{this.props.des2} </p>
             </div>
@@ -75,7 +75,7 @@ export default class ToolsSlider extends Component {
 
           <p className="text-rose-700  text-sm py-4 px-[2%]  text-center " >{this.props.title1} </p>
             <div className="flex flex-col  justify-center">
-            <Image height='600' width='800' className="   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
+            <img height='600' width='800' className="   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
             <p className="text-rose-700  text-sm py-4 px-[8%]  text-center " >{this.props.des2} </p>
             </div>
           </div>

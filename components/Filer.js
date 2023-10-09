@@ -10,7 +10,7 @@ import BF_filer from './Compare/BF_filer';
 const Filer = () => {
 
   return (
-    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#0f1a20f6]    '>
+    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#000000c2]    '>
 
         {/* <div className='flex flex-col py-6  justify-center w-full items-center   bg-via-gray-100'> */}
         
@@ -28,16 +28,16 @@ const Filer = () => {
              
           
              </div>
-          <Image
+             <img
              className="  w-20 object-cover  rounded-md h-20 "
              src="/images/yekta_logoIn.png"
-             width='1200'
-             height='800'
-             alt="CEO"
+             width='200'
+             height='200'
+             alt="کلینیک زیبایی یکتا"
             />
           </div>
 
-            <p className='text-right text-md sm:text-xs sm:leading-loose py-4 md:text-center text-gray-300 px-6 leading-loose'>
+            <p className='text-right text-md sm:text-sm sm:leading-loose py-4 md:text-center text-gray-300 px-6 leading-loose'>
             لاغری موضعی یکی از روش‌های نوین درمان چاقی است که این‌روزها طرفداران زیادی دارد. همه ما نه تنها با شرایط یکسانی متولد نمی‌شویم، بلکه عوامل ارثی، اکتسابی یا برخی وقایع می‌توانند بر میزان چربی بدنمان در نواحی مختلف اثرگذار باشند  
             </p>
         </div>

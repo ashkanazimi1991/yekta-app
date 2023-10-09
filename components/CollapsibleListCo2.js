@@ -1,5 +1,5 @@
 // import BF_Botaxes from './Compare/BF_Botaxes';
-import Image from 'next/image';
+// import Image from 'next/image';
 import React, { useState } from 'react';
 
 
@@ -11,13 +11,13 @@ const CollapsibleListCo2 = () => {
  };
 
  return (
-    <div className='bg-[#0f1a20f6]'>
+    <div className='bg-[#000000c2]'>
       <button onClick={handleToggle} className='flex justify-center w-full py-6 animate-pulse text-purple-500  '>
         {isVisible ? 'مشاهده کمتر' : 'مشاهده بیشتر'} 
       </button>
       <div style={{ display: isVisible ? 'block' : 'none' }}>
         <div className='px-[15%] mt-9'>
-        <Image
+        <img
              className="  w-full  object-cover  rounded-xl bg-red-400 "
              src="/images/co203.jpg"
              width='1200'

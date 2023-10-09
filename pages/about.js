@@ -3,7 +3,7 @@ import Team from '@/components/Team';
 
 const about = () => {
   return (
-    <div>
+    <div className=''>
         <Team/>
     </div>
   )

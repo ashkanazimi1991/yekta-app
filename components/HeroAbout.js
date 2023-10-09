@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 import ClinicSlider from './ClinicSlider';
 
 const HeroAbout = () => {
@@ -8,7 +8,7 @@ const HeroAbout = () => {
         
         
         <div className='flex justify-center items-center'>
-         <Image
+         <img
          className=" object-contain w-16"
          src="/images/yekta_logo.png"
          width='100'
@@ -38,7 +38,7 @@ const HeroAbout = () => {
           />
 <div className='flex justify-items-center items-center flex-col'>
         <p className='text-xl text-center py-2   md:text-xl text-gray-100 '>  کلینیک پوست, مو و زیبایی یکتا </p>
-        <p className='text-center px-[10%] text-gray-200 text-md md:text-sm  leading-loose  '>با کادری مجرب در محیطی پاکیزه و آرامش بخش با تجهیزات مدرن آماده ارائه خدمات زیبای به مراجعه کنندگان عزیز  می باشد</p>
+        <p className='text-center px-[10%] text-gray-200 text-md md:text-sm  leading-loose md:leading-loose  '>با کادری مجرب در محیطی پاکیزه و آرامش بخش با تجهیزات مدرن آماده ارائه خدمات زیبای به مراجعه کنندگان عزیز  می باشد</p>
 </div>
 
      </div>

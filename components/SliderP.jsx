@@ -1,6 +1,6 @@
 
 import React, { useRef, useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -34,14 +34,14 @@ export default function SliderP() {
         <SwiperSlide className="  py-6 z-10 ">
           <div className="flex flex-col w-full  justify-center items-center ">
             <div className="flex justify-around  w-full items-center flex-row-reverse">
-            <Image src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
+            <img src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
             <div className="flex flex-col">
-            <p className="px-2 text-right text-2xl text-gray-300">Sara Kian </p>
+            <p className="px-2 text-right text-2xl text-gray-700">Sara Kian </p>
             {/* <p className="px-2 py-2 text-gray-400 text-xs text-right"> مجموعه مدیریت آنلاین</p> */}
             </div>
             </div>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
 
           </div>
         </SwiperSlide>
@@ -49,31 +49,14 @@ export default function SliderP() {
         <SwiperSlide className="  py-6  ">
           <div className="flex flex-col w-full  justify-center items-center ">
             <div className="flex justify-around  w-full items-center flex-row-reverse">
-            <Image src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
+            <img src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
             <div className="flex flex-col">
-            <p className="px-2 text-right text-2xl text-gray-300">Sara Kian </p>
+            <p className="px-2 text-right text-2xl text-gray-700">Sara Kian </p>
             {/* <p className="px-2 py-2 text-gray-400 text-xs text-right"> مجموعه مدیریت آنلاین</p> */}
             </div>
             </div>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
-
-          </div>
-        </SwiperSlide>
-
-
-
-        <SwiperSlide className="  py-6  ">
-          <div className="flex flex-col w-full  justify-center items-center ">
-            <div className="flex justify-around  w-full items-center flex-row-reverse">
-            <Image src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
-            <div className="flex flex-col">
-            <p className="px-2 text-right text-2xl text-gray-300">Sara Kian </p>
-            {/* <p className="px-2 py-2 text-gray-400 text-xs text-right"> مجموعه مدیریت آنلاین</p> */}
-            </div>
-            </div>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
 
           </div>
         </SwiperSlide>
@@ -83,14 +66,31 @@ export default function SliderP() {
         <SwiperSlide className="  py-6  ">
           <div className="flex flex-col w-full  justify-center items-center ">
             <div className="flex justify-around  w-full items-center flex-row-reverse">
-            <Image src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
+            <img src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
             <div className="flex flex-col">
-            <p className="px-2 text-right text-2xl text-gray-300">Sara Kian </p>
+            <p className="px-2 text-right text-2xl text-gray-700">Sara Kian </p>
             {/* <p className="px-2 py-2 text-gray-400 text-xs text-right"> مجموعه مدیریت آنلاین</p> */}
             </div>
             </div>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
+
+          </div>
+        </SwiperSlide>
+
+
+
+        <SwiperSlide className="  py-6  ">
+          <div className="flex flex-col w-full  justify-center items-center ">
+            <div className="flex justify-around  w-full items-center flex-row-reverse">
+            <img src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
+            <div className="flex flex-col">
+            <p className="px-2 text-right text-2xl text-gray-700">Sara Kian </p>
+            {/* <p className="px-2 py-2 text-gray-400 text-xs text-right"> مجموعه مدیریت آنلاین</p> */}
+            </div>
+            </div>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
 
           </div>
         </SwiperSlide>
@@ -101,14 +101,14 @@ export default function SliderP() {
         <SwiperSlide className="  py-6  ">
           <div className="flex flex-col w-full  justify-center items-center ">
             <div className="flex justify-around  w-full items-center flex-row-reverse">
-            <Image src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
+            <img src='/images/sara.jpg' width='100' height='100'  className='rounded-xl   w-18 h-20  object-cover'/>
             <div className="flex flex-col">
-            <p className="px-2 text-right text-2xl text-gray-300">Sara Kian </p>
+            <p className="px-2 text-right text-2xl text-gray-700">Sara Kian </p>
             {/* <p className="px-2 py-2 text-gray-400 text-xs text-right"> مجموعه مدیریت آنلاین</p> */}
             </div>
             </div>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
-            <p className="px-2 text-gray-400 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 border-t-2 border-gray-400 leading-6">    با تشکر از  کادر مجرب کلینیک  یکتا   </p>
+            <p className="px-2 text-gray-700 text-xs text-right py-4 mt-4 ">  1402/04/04 </p>
 
           </div>
         </SwiperSlide>
