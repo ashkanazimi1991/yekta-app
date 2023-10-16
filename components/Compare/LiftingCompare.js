@@ -33,14 +33,14 @@ export const Beauty = ({ style, ...props }) => {
       }
       itemOne={
         <ReactCompareSliderImage
-        src="/images/thin02.jpg"
+        src="/images/bf01.jpg"
           // style={{ filter: "grayscale(1)" }}
           alt="one"
         />
       }
       itemTwo={
         <ReactCompareSliderImage
-        src="/images/thin01.jpg"
+        src="/images/bf02.jpg"
 
           alt="two"
         />
@@ -61,50 +61,50 @@ export const Beauty = ({ style, ...props }) => {
 
 
 
-export const Skin = ({ style, ...props }) => {
-  const handlePositionChange = useCallback(
-    (position) => console.log("[Portrait]", position),
-    []
-  );
+// export const Skin = ({ style, ...props }) => {
+//   const handlePositionChange = useCallback(
+//     (position) => console.log("[Portrait]", position),
+//     []
+//   );
 
-  return (
-    <ReactCompareSlider
-      {...props}
-      handle={
-        <ReactCompareSliderHandle
-          buttonStyle={{
-            backdropFilter: undefined,
-            background: "white",
-            border: 0,
-                        color: "#333"
-          }}
-        />
-      }
-      itemOne={
-        <ReactCompareSliderImage
-        src="/images/botax01.jpg"
-          style={{ filter: "grayscale(1)" }}
-          alt="کلینیک زیبایی"
-        />
-      }
-      itemTwo={
-        <ReactCompareSliderImage
-        src="/images/botax02.jpg"
+//   return (
+//     <ReactCompareSlider
+//       {...props}
+//       handle={
+//         <ReactCompareSliderHandle
+//           buttonStyle={{
+//             backdropFilter: undefined,
+//             background: "white",
+//             border: 0,
+//                         color: "#333"
+//           }}
+//         />
+//       }
+//       itemOne={
+//         <ReactCompareSliderImage
+//         src="/images/botax01.jpg"
+//           style={{ filter: "grayscale(1)" }}
+//           alt="کلینیک زیبایی"
+//         />
+//       }
+//       itemTwo={
+//         <ReactCompareSliderImage
+//         src="/images/botax02.jpg"
 
-          alt="کلینیک یکتا"
-        />
-      }
-      onPositionChange={handlePositionChange}
-      style={{
-        display: "flex",
-        width: "100%",
-        height: "25vh",
+//           alt="کلینیک یکتا"
+//         />
+//       }
+//       onPositionChange={handlePositionChange}
+//       style={{
+//         display: "flex",
+//         width: "100%",
+//         height: "25vh",
         
-        ...style
-      }}
-    />
-  );
-};
+//         ...style
+//       }}
+//     />
+//   );
+// };
 
 export const LiftingCompare = () => (
   <div>

@@ -72,7 +72,7 @@ export default class FiledSlider extends Component {
                <img  src='/images/facial.jpg'  alt="کلینیک زیبایی یکتا" width='280' height='150'
                   className="  rounded-full border-6  w-28 h-28 border-rose-600 p-1 shadow shadow-[#E08798]  object-cover "/>
           </div>
-             <p className='text-center  w-36  text-gray-800 py-2 '>لیزر</p> 
+             <p className='text-center  w-36  text-gray-800 py-2 '>فشیال</p> 
    </div>
          
 
@@ -83,7 +83,8 @@ export default class FiledSlider extends Component {
                <img  src='/images/laser.jpg'  alt="کلینیک زیبایی یکتا" width='280' height='150'
                   className="  rounded-full w-28 h-28  border-6   border-rose-600 p-1 shadow shadow-[#E08798] object-cover "/>
           </div>
-             <p className='text-center  w-36 text-gray-800 py-2 '>فشیال</p> 
+             <p className='text-center  w-36 text-gray-800 py-2 '>لیزر
+             </p> 
    </div>
 
     

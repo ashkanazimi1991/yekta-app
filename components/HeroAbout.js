@@ -4,7 +4,7 @@ import ClinicSlider from './ClinicSlider';
 
 const HeroAbout = () => {
   return (
-    <div className='py-12 space-y-8 flex flex-col w-full justify-center items-center '>
+    <div className='py-12 min-h-screen space-y-8 flex flex-col w-full justify-center items-center '>
         
         
         <div className='flex justify-center items-center'>

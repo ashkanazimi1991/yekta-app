@@ -1,4 +1,4 @@
-import BF_Botaxes from './Compare/BF_Botaxes';
+import BF_Filers from './Compare/BF_Filers';
 import React, { useState } from 'react';
 
 
@@ -15,7 +15,7 @@ const CollapsibleListFiler = () => {
         {isVisible ? 'مشاهده کمتر' : 'مشاهده بیشتر'} 
       </button>
       <div style={{ display: isVisible ? 'block' : 'none' }}>
-      <BF_Botaxes/>
+      <BF_Filers/>
       </div>
     </div>
  );
