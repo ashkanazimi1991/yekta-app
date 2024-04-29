@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image from 'next/image';
-import { IoGiftSharp } from "react-icons/io5";
-import { PiStudentFill,PiBookOpenTextFill } from "react-icons/pi";
+
 
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -96,8 +94,8 @@ const SliderProduct = () => {
           {/* <button className='bg-[#b77a7e] px-4 py-2 whitespace-nowrap shadow rounded-md text-white'>
             مشاهده در فروشگاه
             </button>    */}
-            <Image 
-            src="/images/10006.jpeg"
+            <img 
+            src="/images/s1003.jpg"
              alt='ebs'  width='600'
                         height='600' className=' -z-20 w-full h-full object-cover absolute top-0  rounded-md' />
           </div>
@@ -110,8 +108,8 @@ const SliderProduct = () => {
           {/* <button className='bg-[#b77a7e] px-4 py-2 whitespace-nowrap shadow rounded-md text-white'>
             مشاهده در فروشگاه
             </button>    */}
-            <Image 
-            src="/images/10006.jpeg"
+            <img 
+            src="/images/s1001.jpg"
              alt='ebs'  width='600'
                         height='600' className=' -z-20 w-full h-full object-cover absolute top-0  rounded-md' />
           </div>
@@ -124,8 +122,8 @@ const SliderProduct = () => {
           {/* <button className='bg-[#b77a7e] px-4 py-2 whitespace-nowrap shadow rounded-md text-white'>
             مشاهده در فروشگاه
             </button>    */}
-            <Image 
-            src="/images/10006.jpeg"
+            <img 
+            src="/images/s1002.jpg"
              alt='ebs'  width='600'
                         height='600' className=' -z-20 w-full h-full object-cover absolute top-0  rounded-md' />
           </div>
@@ -138,8 +136,8 @@ const SliderProduct = () => {
           {/* <button className='bg-[#b77a7e] px-4 py-2 whitespace-nowrap shadow rounded-md text-white'>
             مشاهده در فروشگاه
             </button>    */}
-            <Image 
-            src="/images/10006.jpeg"
+            <img 
+            src="/images/s1003.jpg"
              alt='ebs'  width='600'
                         height='600' className=' -z-20 w-full h-full object-cover absolute top-0  rounded-md' />
           </div>
@@ -152,8 +150,8 @@ const SliderProduct = () => {
           {/* <button className='bg-[#b77a7e] px-4 py-2 whitespace-nowrap shadow rounded-md text-white'>
             مشاهده در فروشگاه
             </button>    */}
-            <Image 
-            src="/images/10006.jpeg"
+            <img 
+            src="/images/s1002.jpg"
              alt='ebs'  width='600'
                         height='600' className=' -z-20 w-full h-full object-cover absolute top-0  rounded-md' />
           </div>
@@ -166,8 +164,8 @@ const SliderProduct = () => {
           {/* <button className='bg-[#b77a7e] px-4 py-2 whitespace-nowrap shadow rounded-md text-white'>
             مشاهده در فروشگاه
             </button>    */}
-            <Image 
-            src="/images/10006.jpeg"
+            <img 
+            src="/images/t1000.jpg"
              alt='ebs'  width='600'
                         height='600' className=' -z-20 w-full h-full object-cover absolute top-0  rounded-md' />
           </div>

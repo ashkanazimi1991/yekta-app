@@ -5,7 +5,7 @@ import SliderProduct from './SliderProduct';
 import ToolsSlider from './ToolsSlider';
 const HeroAbout = () => {
   return (
-    <div className=' min-h-screen space-y-8 bg-[#f0f0f0] pb-6 flex flex-col w-full justify-center items-center '>
+    <div className=' min-h-screen space-y-12 bg-[#f0f0f0] pb-6 flex flex-col w-full justify-center items-center '>
         
         <div className='flex flex-row-reverse w-full  h-screen'>
 
@@ -42,16 +42,15 @@ const HeroAbout = () => {
 
 
         <ToolsSlider   
-                          img1='/images/tools10.jpg' img2='/images/tools10.jpg' 
-                          //  img3='/images/tools3.jpg' img4='/images/tools4.jpg'
-                          //  img5='/images/office02.jpg' img6='/images/yekta-bg.jpg'
+                          img1='/images/t1005.jpg' img2='/images/t1001.jpg' 
+                           img3='/images/thindevice.webp' img4='/images/t1004.jpg'
+                  
+                           img5='/images/t1003.jpg'
                         title1=' ثبت سفارش  ' title2='----- ' 
                         des1='دستگاه هایفو چهار بعدی جوانسازی و لیفتینگ پوست '
                         des2='2دستگاه نمونه '
-
-                      //   title3='Healthcare and Lifestyle'
-                        //  title4='Blockchain and Crypto' title5='Service Base Platforms' title6='Robotic and IoT' 
                         />
+
 
         
      

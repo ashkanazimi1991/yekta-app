@@ -9,11 +9,11 @@ export default class ToolsSlider extends Component {
     const settings = {
       autoplay:true,
       infinite: true,
-      initialSlide: 3,
+      initialSlide: 4,
       // fade: true,
-      slidesToShow: 3,
+      slidesToShow: 4,
       dots:true,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
       speed: 1500,
       lazyLoad: true,
       // adaptiveHeight: true,
@@ -52,7 +52,7 @@ export default class ToolsSlider extends Component {
 
          
         <div className='relative '>
-            <img height='600' width='800'  className="  w-full  object-cover rounded-xl  "
+            <img  className="  w-full h-[500px] shadow-xl   object-cover rounded-xl  "
                src={this.props.img1} alt=" مدیریت آنلاین" />
         <div className=''>
         <div className='backdrop-blur-sm w-full flex h-20 justify-center items-center flex-row-reverse  z-10 rounded-b-md bg-[#18544e8a] absolute left-0 bottom-0'>
@@ -65,8 +65,8 @@ export default class ToolsSlider extends Component {
       </div>
 
       <div className='relative '>
-            <img height='600' width='800'  className="  w-full  object-cover rounded-xl  "
-               src={this.props.img1} alt=" مدیریت آنلاین" />
+            <img   className="  w-full h-[500px] shadow-xl   object-cover rounded-xl  "
+               src={this.props.img2} alt=" مدیریت آنلاین" />
         <div className=''>
         <div className='backdrop-blur-sm w-full flex h-20 justify-center items-center flex-row-reverse  z-10 rounded-b-md bg-[#18544e8a] absolute left-0 bottom-0'>
 
@@ -79,8 +79,8 @@ export default class ToolsSlider extends Component {
 
 
       <div className='relative '>
-            <img height='600' width='800'  className="  w-full  object-cover rounded-xl  "
-               src={this.props.img1} alt=" مدیریت آنلاین" />
+            <img   className="  w-full h-[500px] shadow-xl    object-cover rounded-xl  "
+               src={this.props.img3} alt=" مدیریت آنلاین" />
         <div className=''>
         <div className='backdrop-blur-sm w-full flex h-20 justify-center items-center flex-row-reverse  z-10 rounded-b-md bg-[#18544e8a] absolute left-0 bottom-0'>
 
@@ -94,8 +94,8 @@ export default class ToolsSlider extends Component {
 
 
       <div className='relative '>
-            <img height='600' width='800'  className="  w-full  object-cover rounded-xl  "
-               src={this.props.img1} alt=" مدیریت آنلاین" />
+            <img   className="  w-full h-[500px] shadow-xl   object-cover rounded-xl  "
+               src={this.props.img3} alt=" مدیریت آنلاین" />
         <div className=''>
         <div className='backdrop-blur-sm w-full flex h-20 justify-center items-center flex-row-reverse  z-10 rounded-b-md bg-[#18544e8a] absolute left-0 bottom-0'>
 
@@ -103,6 +103,39 @@ export default class ToolsSlider extends Component {
           <p className="text-rose-50   text-sm  w-2/3  text-center " >{this.props.des1} </p>
           </div>
         </div>
+
+      </div>
+
+
+      <div className='relative '>
+            <img height='600' width='800'  className="  w-full h-[500px] shadow-xl  object-cover rounded-xl  "
+               src={this.props.img4} alt=" مدیریت آنلاین" />
+        <div className=''>
+        <div className='backdrop-blur-sm w-full flex h-20 justify-center items-center flex-row-reverse  z-10 rounded-b-md bg-[#18544e8a] absolute left-0 bottom-0'>
+
+          <p className="text-blue-50 font-bold w-1/3 flex justify-center items-center  h-full bg-[#00000061] cursor-pointer  text-md  text-center " >{this.props.title1} </p>
+          <p className="text-rose-50   text-sm  w-2/3  text-center " >{this.props.des1} </p>
+          </div>
+        </div>
+
+
+        
+
+      </div>
+
+      <div className='relative '>
+            <img className="  w-full h-[500px] shadow-xl  object-cover rounded-xl  "
+               src={this.props.img5} alt=" مدیریت آنلاین" />
+        <div className=''>
+        <div className='backdrop-blur-sm w-full flex h-20 justify-center items-center flex-row-reverse  z-10 rounded-b-md bg-[#18544e8a] absolute left-0 bottom-0'>
+
+          <p className="text-blue-50 font-bold w-1/3 flex justify-center items-center  h-full bg-[#00000061] cursor-pointer  text-md  text-center " >{this.props.title1} </p>
+          <p className="text-rose-50   text-sm  w-2/3  text-center " >{this.props.des1} </p>
+          </div>
+        </div>
+
+
+        
 
       </div>
 

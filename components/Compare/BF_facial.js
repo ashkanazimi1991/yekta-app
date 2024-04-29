@@ -77,7 +77,7 @@ export const BF_facial = () => (
          
        
          
-           <div className=" flex justify-center rounded-full bg-green-400 items-center    ">
+           <div className=" flex justify-center rounded-full  items-center    ">
              <Beauty position={20}/>
            </div>
 
