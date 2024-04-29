@@ -12,7 +12,7 @@ const Footer = () => {
           
           <div className=' w-full px-[10%] flex md:flex-col justify-center items-center py-4 '>
             <div className='flex  w-[300px]  '>
-            <iframe className='rounded-xl bg-gray-200 p-4 brightness-75  hover:brightness-100' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d197.73301836896493!2d45.05192522390694!3d37.537901691832246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1695483487827!5m2!1sen!2sde" width="300" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className='rounded-xl bg-gray-200 p-4 brightness-75  hover:brightness-100' src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d197.73301836896493!2d45.05192522390694!3d37.537901691832246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1695483487827!5m2!1sen!2sde" width="300" height="250"  allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div className='flex flex-col space-y-4 justify-center px-[10%] items-center w-1/2 md:w-full'>

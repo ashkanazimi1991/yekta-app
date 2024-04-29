@@ -71,25 +71,10 @@ export const Beauty = ({ style, ...props }) => {
 export const BF_Botax = () => (
   <div>
 
-
-    <div className="flex justify-center    w-full items-center" >
-       
-         
-       
-         
-           <div className=" flex justify-center rounded-full bg-green-400 items-center    ">
-             <Beauty position={20}/>
-           </div>
-
-
-
+     <div className=" flex justify-center rounded-md    ">
+        <Beauty position={20}/>
     </div>
 
-
-
-
-    {/* <Portrait />
-    <CustomHandle position={50} /> */}
   </div>
 );
 export default BF_Botax

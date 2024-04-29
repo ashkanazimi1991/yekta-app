@@ -41,8 +41,8 @@ const Nav = ({ isOpen, onClose }) => {
       transition-opacity ${isOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
     >
-      <div className="fixed inset-0 bg-gray-800  bg-opacity-5"></div>
-      <div className="absolute inset-y-0 right-0  max-w-full flex">
+      {/* <div className="fixed inset-0 bg-gray-800  bg-opacity-5"></div> */}
+      <div className="absolute inset-y-0 right-0  max-w-full h-full flex">
         <div
           ref={NavRef}
           className={`w-screen max-w-md transform transition ease-in-out duration-500 ${isOpen ? "translate-x-0" : "translate-x-full"

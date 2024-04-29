@@ -10,7 +10,7 @@ const CollapsibleListL = () => {
  };
 
  return (
-    <div className='bg-[#fdfdfdd5] '>
+    <div className='bg-[#f5e5d4]'>
       <button onClick={handleToggle} className='flex justify-center w-full py-4 animate-pulse text-purple-500 '>
         {isVisible ? 'مشاهده کمتر' : 'مشاهده بیشتر'} 
       </button>

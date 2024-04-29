@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import Hero from '@/components/Hero';
+import Gallery from '@/components/Gallery/Gallery';
 // import DownloadPWA from '../components/DownloadPWA';
 
 const Botox = dynamic(() => import('../components/Botox'))
@@ -16,7 +17,7 @@ const Fecial = dynamic(() => import('../components/Fecial'))
 
 const Thinness = dynamic(() => import('../components/Thinness'))
 const HeroAbout = dynamic(() => import('../components/HeroAbout'))
-const FixedVideo = dynamic(() => import('../components/FixedVideo'))
+// const FixedVideo = dynamic(() => import('../components/FixedVideo'))
 const Laser = dynamic(() => import('../components/Laser'))
 const Faq = dynamic(() => import('../components/Faq'))
 const Filer = dynamic(() => import('../components/Filer'))
@@ -41,7 +42,7 @@ export default function Home() {
 
   return (
 
-<div className='bg-[#00000065]' >
+<div className='' >
     <Head>
         <title>Yekta Beauty Clinic </title>
         <meta name="description" content="کلینیک زیبایی یکتا" />
@@ -51,20 +52,20 @@ export default function Home() {
      </Head>
 
 
-     <video   autoPlay loop muted  className="fixed -z-10 object-cover  w-full h-screen "  >
+     {/* <video   autoPlay loop muted  className="fixed -z-10 object-cover  w-full h-screen "  >
              <source   src="/video/bg.mp4"   type="video/mp4"  />
              <meta name="apple-mobile-web-app-capable" content="yes">
 
              </meta>
                 Your browser does not support the video tag.
-            </video>   
-<div className='flex flex-col'>
+            </video>    */}
+<div>
 
     <Hero/>
     <HeroAbout/>
     <Botox/>
     <CollapsibleListB />
-    <FixedVideo/>
+    {/* <FixedVideo/> */}
     <Thinness/>
     <CollapsibleListT />
     <Laser/>
@@ -78,6 +79,7 @@ export default function Home() {
     <Tato/>
     <Co2/>
     <CollapsibleListCo2/>
+    <Gallery/>
     <Faq/>
   
 </div>

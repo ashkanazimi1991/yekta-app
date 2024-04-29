@@ -1,151 +1,80 @@
 import React, { useState } from 'react';
+import Drawer from './Drawer/Drawer';
 // import Image from 'next/image';
+import { CgMenuGridR } from "react-icons/cg";
 import Link from 'next/link';
-import { PiDotsThreeOutlineVerticalFill } from 'react-icons/pi';
-import { BiHomeSmile } from 'react-icons/bi';
+// import { PiDotsThreeOutlineVerticalFill } from 'react-icons/pi';
 
-// import Nav from './Nav';
-import ModalT from './ModalT';
-import { BsChatLeftHeart,BsCardHeading, BsCalendarDate,BsCalendarCheck,BsCalendar2Heart } from 'react-icons/bs';
+import { FaAngleRight } from "react-icons/fa6";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => {
-    setIsModalOpen(true);
+  const handleOpen = () => {
+    setIsOpen(true);
   };
 
-  const closeModal = () => {
-    setIsModalOpen(false);
+  const handleClose = () => {
+    setIsOpen(false);
   };
 
-
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // const handleOpen = () => {
-  //   setIsOpen(true);
-  // };
-
-  // const handleClose = () => {
-  //   setIsOpen(false);
-  // };
+  
   return (
+    <div>
+
     <div className='fixed w-full mt-2 z-50 flex justify-center pb-40  top-0 left-0'>
-        <div className='flex w-full bg-[#0f1a20c7]  mx-6 rounded-full h-16 pr-2 justify-between items-center'>
+        <div className='flex w-full  bg-[#18544E] shadow-md animate-fade-down animate-ease-in-out shadow-[#0000003b]  backdrop-blur-md mx-6 rounded-full h-16 md:h-12 pr-2 justify-between items-center'>
            <div className='flex space-x-2 justify-center items-center'>
         <Link href='/'>
            <img
-             className=" w-16"
+             className=" bg-[#f1f1f1] shadow-md shadow-[#00000056] rounded-full w-16 md:w-11 z-50"
              src="/images/yekta_logo_head.png"
              width='100'
              height='100'
              alt="کلینیک یکتا"
             />
         </Link>
+        <Link href='/'>
           <div>
-    <Link href='/'>
 
-    <p className='text-sm font-bold text-[#E08798]'>YEKTA CLINIC</p>
-    <p className='text-xs text-gray-400'> Always Perfect</p>
-    </Link>
-</div>
+        <p className='text-md md:text-xs text-[#fff]'>YEKTA CLINIC</p>
+        {/* <p className='text-xs text-gray-300'> Always Perfect</p> */}
+       </div>
+        </Link>
          </div>
-           <div className=' flex justify-center items-center border  w-12 h-12 rounded-full border-gray-200'>
-
        
 
-           <button  className="text-sm  l py-2 px-6 flex justify-center items-center animate-pulse  text-purple-500"   onClick={openModal}>
-           <PiDotsThreeOutlineVerticalFill className='text-[#E08798] text-3xl '/>
-         {/* <AiOutlineFolderOpen className='text-green-400  text-xl text-cernter mx-4 cursor-pointer'/> */}
+       
+<div className='flex flex-row-reverse justify-center md:hidden font-bold text-sm text-white space-x-4 items-center'>
+  <p className='px-3 text-sm whitespace-nowrap'>صفحه اصلی</p>
+  <p className='px-3 text-sm whitespace-nowrap'>فروشگاه</p>
+  <p className='px-3 text-sm whitespace-nowrap'>درباره ما</p>
+  <p className='px-3 text-sm whitespace-nowrap'>ارتباط با ما</p>
+
+
+
+</div>
+
+
+
+           <button  className="text-md sm:text-sm text-white flex justify-center items-center  "   >
+           ورود / ثبت نام
+           <FaAngleRight className=' text-xl ml-4 md:text-md animate-fade-right animate-infinite animate-duration-[2000ms] animate-ease-in-out'/>
               </button>
-              <ModalT isOpen={isModalOpen} onClose={closeModal} >
-              <div className="flex  flex-col z-50  justify-center pt-10 items-center h-full">
-           
-  
-              
-              
-           
-              <Link className="w-full" target='blank' href='/'>
-           <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-        
-           <div className='flex justify-center items-center'>
-
-            <h3 className="text-gray-100 text-center w-full px-4 py-2"> صفحه اصلی</h3>
-            <BiHomeSmile className="text-2xl mr-4 text-gray-100" />
-           </div>
-           </button>
-         </Link>
-
-
-
-           <Link className="w-full" target='blank' href='https://boghrat.com/clinics/yekta-aesthetic-group/%DA%A9%D9%84%DB%8C%D9%86%DB%8C%DA%A9-%DB%8C%DA%A9%D8%AA%D8%A7'>
-         <button className="flex w-full border border-gray-200 justify-end my-4  bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-           {/* <Image  src={img2}  alt="carnet" width='450' height='150'
-             className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
-  
-           <div className='flex justify-center  items-center'>
-
-            <h3 className="text-gray-100 text-center w-full px-4 py-2"> دریافت نوبت</h3>
-            <BsCalendarDate className="text-2xl mr-4 text-gray-100" />
-           </div>
-
-        </button>
-            </Link>
-
           
-            <Link className="w-full" target='blank' href='/satisfaction'>
-              <button className="flex w-full justify-end my-4 border border-gray-200  bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-                {/* <Image  src={img2}  alt="carnet" width='450' height='150'
-                  className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
-        
-                <div className='flex justify-center items-center'>
-                  <h3 className="text-gray-100 text-center w-full px-4 py-2"> رضایتمندها  </h3>
-                  <BsCalendar2Heart className="text-2xl mr-4 text-gray-100" />
-                </div>
-
-                </button>
-           </Link>
-
+      
            
-
-           {/* <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-     
-  
-           <div className='flex justify-center items-center'>
-            <h3 className="text-gray-100 text-center w-full px-4 py-2"> مقالات</h3>
-            <BsCardHeading className="text-3xl mr-4 text-gray-100" />
-           </div>
-
-           </button> */}
-
-
-        
-
-         
-           <Link className="w-full" target='blank' href='/about'>
-           <button className="flex w-full justify-end my-4 border border-gray-200 bg-gradient-to-l from-rose-700 hover:bg-gray-900 py-2 rounded-md shadow-2xl  items-center">
-        
-           <div className='flex justify-center items-center'>
-
-            <h3 className="text-gray-100 text-center w-full px-4 py-2"> ارتباط با ما</h3>
-            <BsChatLeftHeart className="text-2xl mr-4 text-gray-100" />
-           </div>
-           </button>
-         </Link>
-
-
-   
-
-
-       </div>
-              </ModalT>
-            {/* <button onClick={handleOpen}>
-             <PiDotsThreeOutlineVerticalFill className='text-[#E08798] text-3xl '/>
-               </button>
-           <Nav isOpen={isOpen} onClose={handleClose} /> */}
-           </div>
-        </div>
+     </div>
+    
+    </div>
+      <Drawer isOpen={isOpen} onClose={handleClose} />
+<div className='fixed bottom-4 w-full flex justify-center items-center '>
+<button onClick={handleOpen} className=' flex justify-center items-center z-50
+              shadow-[#00000086] bg-[#18544E] w-14 h-14 md:h-10 md:w-10 shadow-xl     rounded-md'>
+                    <CgMenuGridR className='text-white text-2xl'/>
+              </button>
+</div>
+              
     </div>
   )
 }

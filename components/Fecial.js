@@ -10,7 +10,7 @@ import BF_facial from './Compare/BF_facial';
 const Fecial = () => {
 
   return (
-    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#fdfdfdd5]   '>
+    <div className='flex flex-col space-y-6 justify-center items-center w-full py-8 bg-[#f5e5d4] h-screen md:h-full   '>
 
     
 

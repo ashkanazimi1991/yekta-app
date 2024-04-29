@@ -1,47 +1,63 @@
 import React from 'react';
 // import Image from 'next/image';
 import ClinicSlider from './ClinicSlider';
-
+import SliderProduct from './SliderProduct';
+import ToolsSlider from './ToolsSlider';
 const HeroAbout = () => {
   return (
-    <div className='py-12 min-h-screen space-y-8 flex flex-col w-full justify-center items-center '>
+    <div className=' min-h-screen space-y-8 bg-[#f0f0f0] pb-6 flex flex-col w-full justify-center items-center '>
         
-        
-        <div className='flex justify-center items-center'>
+        <div className='flex flex-row-reverse w-full  h-screen'>
+
+<div className='w-1/2 absolute right-0 z-10 h-screen  py-10 backdrop-blur-md  bg-[#18544e8a] flex px-[10%] justify-center items-center flex-col'>
+{/* <div className='f'> */}
+<div className='flex justify-center items-center'>
          <img
-         className=" object-contain w-16"
-         src="/images/yekta_logo.png"
-         width='100'
-         height='100'
+         className=" object-contain w-44"
+         src="/images/goldlogo.png"
+         width='700'
+         height='700'
          alt="کلینیک یکتا"
          />
          
-       
-
-         <div>
-          <p className='text-xl font-bold text-[#E08798]'>YEKTA CLINIC</p>
-          <p className='text-md text-gray-200'> Always Perfect</p>
         </div>
 
+        {/* <p className='text-xl text-center py-2   md:text-md text-purple-50 '>   هلدینگ و کلینیک زیبایی یکتا </p> */}
+        {/* <p className='text-center px-[10%] text-purple-50  text-md md:text-xs  leading-loose md:leading-loose  '>با کادری مجرب در محیطی پاکیزه و آرامش بخش با تجهیزات مدرن آماده ارائه خدمات زیبای به مراجعه کنندگان عزیز  می باشد</p> */}
+{/* </div> */}
+  </div>
+
+
+  <div className='w-full bg-[#f9f6ef32] min-h-screen  backdrop-blur-md'>
+        <ClinicSlider   
+            img1='/images/office02.jpg' img2='/images/10004.jpg' 
+            // img3='/images/filler.jpg' img4='/images/office02.jpg'
+            //  img5='/images/10003.jpg' img6='/images/10002.jpeg'
+            // title1='محصول تست ' title2='محصول تست ۲' title3='محصول تست ۳'
+            //  title4='محصول تست ۴' title5='محصول تست ۵' title6='محصول تست  ۶' 
+            />
+
+</div>
         </div>
+
+
+        <ToolsSlider   
+                          img1='/images/tools10.jpg' img2='/images/tools10.jpg' 
+                          //  img3='/images/tools3.jpg' img4='/images/tools4.jpg'
+                          //  img5='/images/office02.jpg' img6='/images/yekta-bg.jpg'
+                        title1=' ثبت سفارش  ' title2='----- ' 
+                        des1='دستگاه هایفو چهار بعدی جوانسازی و لیفتینگ پوست '
+                        des2='2دستگاه نمونه '
+
+                      //   title3='Healthcare and Lifestyle'
+                        //  title4='Blockchain and Crypto' title5='Service Base Platforms' title6='Robotic and IoT' 
+                        />
+
         
      
-     
-     <div className='flex flex-col-reverse justify-center items-center w-full'>
 
-        <ClinicSlider   
-            img1='/images/office02.jpg' img2='/images/yekta-bg.jpg' 
-            // img3='/images/office02.jpg' img4='/images/yekta-bg.jpg'
-            //  img5='/images/office02.jpg' img6='/images/yekta-bg.jpg'
-          // title1='Startup Ideas' title2='Large-scale Shops' title3='Healthcare and Lifestyle'
-          //  title4='Blockchain and Crypto' title5='Service Base Platforms' title6='Robotic and IoT' 
-          />
-<div className='flex justify-items-center items-center flex-col'>
-        <p className='text-xl text-center py-2   md:text-xl text-gray-100 '>  کلینیک پوست, مو و زیبایی یکتا </p>
-        <p className='text-center px-[10%] text-gray-200 text-md md:text-sm  leading-loose md:leading-loose  '>با کادری مجرب در محیطی پاکیزه و آرامش بخش با تجهیزات مدرن آماده ارائه خدمات زیبای به مراجعه کنندگان عزیز  می باشد</p>
-</div>
-
-     </div>
+     <p className=' w-full py-4  text-center'>سایر محصولات و نمایندگی ها</p>
+            <SliderProduct/>
 
 
     </div>

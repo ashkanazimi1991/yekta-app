@@ -10,8 +10,8 @@ export default class ClinicSlider extends Component {
       autoplay:true,
       infinite: true,
       initialSlide: 2,
-      // fade: true,
-      slidesToShow: 2,
+      fade: true,
+      slidesToShow: 1,
       dots:true,
       slidesToScroll: 1,
       speed: 1500,
@@ -47,38 +47,25 @@ export default class ClinicSlider extends Component {
 
     };
     return (
-      <div className=" items-center container pt-8 overflow-hidden">
+      <div className="  w-full min-h-screen items-center container overflow-hidden">
         <Slider {...settings}>
-          <div >
-              {/* <h1 className="text-[#80ece1] sm:text-sm py-3  opacity-0 hover:opacity-100 text-xl lg:text-lg text-center " >{this.props.title1} </h1> */}
-            <div className="flex justify-center">
-            <img height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
+       
+
+            <img height='1200' width='1200'  className=" w-full h-screen  object-cover  rounded-xl  justify-center "
                src={this.props.img1} alt=" مدیریت آنلاین" />
-            </div>
-          </div>
          
-          <div>
-              {/* <h1 className="text-[#80ece1] sm:text-sm py-3 text-xl lg:text-lg text-center " >{this.props.title2}</h1> */}
-            <div className="flex justify-center">
-            <img height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
-            </div>
-          </div>
-
-          <div >
-              {/* <h1 className="text-[#80ece1] sm:text-sm py-3  opacity-0 hover:opacity-100 text-xl lg:text-lg text-center " >{this.props.title1} </h1> */}
-            <div className="flex justify-center">
-            <img height='1200' width='1200'  className=" w-[80%]  object-cover rounded-xl  justify-center "
-               src={this.props.img1} alt=" مدیریت آنلاین" />
-            </div>
-          </div>
  
-          <div>
-              {/* <h1 className="text-[#80ece1] sm:text-sm py-3 text-xl lg:text-lg text-center " >{this.props.title2}</h1> */}
-            <div className="flex justify-center">
-            <img height='1200' width='1200' className=" w-[80%]   object-cover rounded-xl  justify-center   " src={this.props.img2} alt="کلینیک یکتا" />
-            </div>
-          </div>
+         <img height='1200' width='1200'  className=" w-full h-screen  object-cover  rounded-xl  justify-center "
+               src={this.props.img2} alt=" مدیریت آنلاین" />
 
+
+
+{/* <img height='1200' width='1200'  className=" w-full min-h-screen  object-cover object-center rounded-xl  justify-center "
+               src={this.props.img3} alt=" مدیریت آنلاین" /> */}
+
+
+{/* <img height='1200' width='1200'  className=" w-full min-h-screen  object-cover object-center rounded-xl  justify-center "
+               src={this.props.img4} alt=" مدیریت آنلاین" /> */}
 
 
         </Slider>
